@@ -2,7 +2,7 @@
 page_order: 10
 nav_title: Dokumente
 layout: dev_guide
-guide_top_header: "Hilfeartikel zu Dokumenten"
+guide_top_header: "Docs Hilfe Artikel neue Aktualisierung"
 guide_top_text: "Weitere Informationen zur Braze-Dokumentationsseite finden Sie in den folgenden Ressourcen."
 
 page_type: landing
