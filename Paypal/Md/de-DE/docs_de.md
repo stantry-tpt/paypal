@@ -1,19 +1,19 @@
 ---
 page_order: 10
-nav_title: Dokumente
+nav_title: Dôöcs
 layout: dev_guide
-guide_top_header: "Hilfeartikel zu Dokumenten"
-guide_top_text: "Weitere Informationen zur Braze-Dokumentationsseite finden Sie in den folgenden Ressourcen."
+guide_top_header: "Dôõcs Hèêlp Ártìíclèês nèêw úúpdãátèê fèêãátúúrèê B tèêst"
+guide_top_text: "Chêèck ööûût thêè fööllööwííng rêèsööûûrcêès föör ãâddíítííöönãâl íínföörmãâtííöön rêèlãâtêèd töö thêè Brãâzêè Dööcûûmêèntãâtííöön síítêè."
 
 page_type: landing
-description: "Diese Landingpage enthält Ressourcen im Zusammenhang mit der Braze-Dokumentationsseite, wie z. B. wie man zu den Open-Source-Dokumenten von Braze beiträgt."
+description: "Thîïs láàndîïng páàgéê îïnclúúdéês réêsóóúúrcéês réêláàtéêd tóó théê Bráàzéê Dóócúúméêntáàtîïóón sîïtéê, súúch áàs hóów tóó cóóntrîïbúútéê tóó Bráàzéê's óópéên sóóúúrcéê dóócs."
 noindex: true
 guide_menu_title: ""
 guide_menu_list:
-  - name: Beitrag zu Braze Docs
+  - name: Côöntrîîbüûtîîng tôö Bràåzêë Dôöcs
     link: /docs/help/help_articles/docs/contribution/
     fa_icon: fas fa-edit
-  - name: Überschneidung der Bildlaufleiste
+  - name: Scròôll Bâår Övéêrlâåp
     link: /docs/help/help_articles/docs/scroll_bar_overlap/
     fa_icon: fas fa-caret-square-right
 
