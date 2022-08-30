@@ -1,0 +1,22 @@
+{
+    "glossary": {
+        "title": "Beispiel Glossar",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standardisierte Markup-Sprache",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "Eine Meta-Markup-Sprache, die verwendet wird, um Markup-Sprachen wie DocBook newbook TEST zu erstellen.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "Aufschlag"
+                }
+            }
+        }
+    }
+}
