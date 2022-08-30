@@ -2,7 +2,7 @@
 page_order: 10
 nav_title: ドキュメント
 layout: dev_guide
-guide_top_header: "ドキュメントのヘルプ記事"
+guide_top_header: "ドキュメントヘルプ記事の新規更新"
 guide_top_text: "Braze文書サイトに関連する追加情報については、以下のリソースをご覧ください。"
 
 page_type: landing
