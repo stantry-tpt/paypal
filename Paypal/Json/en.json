@@ -49,7 +49,7 @@
   "inputStage.dateTimeErrorText": "The date time is invalid and should be between 01/01/1000 and 31/12/9999",
   "inputStage.timeErrorText": "Please enter a valid time",
   "inputStage.timeSpanErrorText": "Please enter a valid time span",
-  "inputStage.numberErrorText": "Please enter a valid number",
+  "inputStage.numberErrorText": "Please enter a valid number new",
   "inputStage.defaultPasswordHelperText": "Leave field blank to use the default password value.",
   "inputStage.stopButton": "Stop the process",
   "inputStage.imageErrorText": "Please upload a valid image file",
