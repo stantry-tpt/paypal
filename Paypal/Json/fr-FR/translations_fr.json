@@ -1,0 +1,22 @@
+{
+    "glossary": {
+        "title": "exemple de glossaire",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Langage de balisage généralisé standard",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879 :1986",
+					"GlossDef": {
+                        "para": "Un langage de méta-marquage, utilisé pour créer des langages de balisage tels que DocBook newbook TEST.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "balisage"
+                }
+            }
+        }
+    }
+}
