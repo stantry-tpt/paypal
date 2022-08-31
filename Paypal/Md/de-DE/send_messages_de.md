@@ -1,4 +1,4 @@
 ---
-nav_title: Sëènd Mëèssáãgëès
+nav_title: Sêènd Mêèssáågêès
 config_only: true
 ---

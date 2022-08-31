@@ -1,19 +1,19 @@
 ---
-nav_title: Prêèdîîctîîvêè Sùüîîtêè
-article_title: Prêëdïíctïívêë Sùúïítêë
+nav_title: Prêêdîìctîìvêê Sûúîìtêê
+article_title: Prëëdïìctïìvëë Süüïìtëë
 page_order: 6.4
 layout: featured
 
-guide_top_header: "Prêêdìíctìívêê Sýúìítêê"
-guide_top_text: "Thëè Brààzëè Prëèdíïctíïvëè Sýùíïtëè pýùts mààchíïnëè lëèààrníïng tóöóöls íïn thëè hàànds óöf mààrkëètëèrs, ëènààblíïng thëèm tóö ëèffëèctíïvëèly lëèvëèrààgëè àànd ààct óön dààtàà sëèààmlëèssly wíïthíïn thëè Brààzëè plààtfóörm. Ás théê fíírst féêãåtúýréê réêléêãåséêd íín théê Préêdííctíívéê Súýíítéê, Préêdííctíívéê Chúýrn ãållóòws mãårkéêtéêrs tóò déêfíínéê ãånd géênéêrãåtéê préêdííctííóòns, próòvíídííng ãå próòãåctíívéê ãåppróòãåch tóòwãård mííníímíízííng fúýtúýréê chúýrn. Lëêäârn môórëê äâbôóûût thëê fëêäâtûûrëês by vîísîítîíng thëê fôóllôówîíng äârtîíclëês!"
-description: "Thìïs láåndìïng páågéé ìïs áå pláåcéé fòõr áåll thìïs préédìïctìïvéé áåt Bráåzéé! Thèê Bräæzèê prèêdîíctîívèê sùýîítèê ôôffèêrs sôôlùýtîíôôns fôôr chùýrn äænd pùýrchäæsèê prèêdîíctîíôôn wîíthîín yôôùýr Bräæzèê cäæmpäæîígns äænd Cäænväæsèês."
+guide_top_header: "Préëdííctíívéë Sùýíítéë"
+guide_top_text: "Théé Brååzéé Préédìíctìívéé Súüìítéé púüts mååchìínéé lééåårnìíng tòòòòls ìín théé håånds òòf måårkéétéérs, éénååblìíng théém tòò ééffééctìívéély léévééråågéé åånd ååct òòn dååtåå sééååmlééssly wìíthìín théé Brååzéé plååtfòòrm. Ås thêé fìírst fêéäätüýrêé rêélêéääsêéd ìín thêé Prêédìíctìívêé Süýìítêé, Prêédìíctìívêé Chüýrn äällòôws määrkêétêérs tòô dêéfìínêé äänd gêénêéräätêé prêédìíctìíòôns, pròôvìídìíng ää pròôääctìívêé ääppròôääch tòôwäärd mìínìímìízìíng füýtüýrêé chüýrn. Léêãærn môöréê ãæbôöýût théê féêãætýûréês by vïïsïïtïïng théê fôöllôöwïïng ãærtïïcléês!"
+description: "Thíïs lâändíïng pâägèê íïs âä plâäcèê fóör âäll thíïs prèêdíïctíïvèê âät Brâäzèê! Thèè Brâãzèè prèèdîíctîívèè sýýîítèè öôffèèrs söôlýýtîíöôns föôr chýýrn âãnd pýýrchâãsèè prèèdîíctîíöôn wîíthîín yöôýýr Brâãzèè câãmpâãîígns âãnd Câãnvâãsèès."
 
-guide_featured_title: "Fééåàtúûréés"
+guide_featured_title: "Fëêáætûûrëês"
 guide_featured_list:
-- name: Préédîîctîîvéé Chüûrn
+- name: Préëdîîctîîvéë Chúürn
   link: /docs/user_guide/predictive_suite/predictive_churn/
   fa_icon: fas fa-cogs
-- name: Prëêdììctììvëê Pûýrchäæsëês
+- name: Préêdììctììvéê Púýrchæàséês
   link: /docs/user_guide/predictive_suite/predictive_purchases/
   fa_icon: fas fa-cogs
 ---

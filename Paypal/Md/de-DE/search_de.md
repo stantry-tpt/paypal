@@ -1,5 +1,5 @@
 ---
-nav_title: Dòöcýýmèèntàâtíìòön Sèèàârch
+nav_title: Dóöcúümèèntâãtìïóön Sèèâãrch
 hidden: true
 hide_nav: true
 permalink: /search/
