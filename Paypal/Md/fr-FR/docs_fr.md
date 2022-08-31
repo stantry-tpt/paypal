@@ -1,19 +1,19 @@
 ---
 page_order: 10
-nav_title: Dôôcs
+nav_title: Dóõcs
 layout: dev_guide
-guide_top_header: "Dòöcs Hêêlp Ærtîìclêês nêêw úüpdãåtêê"
-guide_top_text: "Chèëck ôóùût thèë fôóllôówíîng rèësôóùûrcèës fôór äàddíîtíîôónäàl íînfôórmäàtíîôón rèëläàtèëd tôó thèë Bräàzèë Dôócùûmèëntäàtíîôón síîtèë."
+guide_top_header: "üúpdæåtëè föôr chæångëè dëètëèctîíöôn"
+guide_top_text: "Chèêck óôüùt thèê fóôllóôwíïng rèêsóôüùrcèês fóôr àãddíïtíïóônàãl íïnfóôrmàãtíïóôn rèêlàãtèêd tóô thèê Bràãzèê Dóôcüùmèêntàãtíïóôn síïtèê."
 
 page_type: landing
-description: "Thîïs låàndîïng påàgèé îïnclýùdèés rèésòôýùrcèés rèélåàtèéd tòô thèé Bråàzèé Dòôcýùmèéntåàtîïòôn sîïtèé, sýùch åàs hòôw tòô còôntrîïbýùtèé tòô Bråàzèé's òôpèén sòôýùrcèé dòôcs."
+description: "Thïís läændïíng päægéè ïínclýùdéès réèsôòýùrcéès réèläætéèd tôò théè Bräæzéè Dôòcýùméèntäætïíôòn sïítéè, sýùch äæs hôòw tôò côòntrïíbýùtéè tôò Bräæzéè's ôòpéèn sôòýùrcéè dôòcs."
 noindex: true
 guide_menu_title: ""
 guide_menu_list:
-  - name: Cóöntrìïbùùtìïng tóö Bræâzèé Dóöcs
+  - name: Còõntríîbýútíîng tòõ Bràäzëê Dòõcs
     link: /docs/help/help_articles/docs/contribution/
     fa_icon: fas fa-edit
-  - name: Scrõöll Bæàr Övéérlæàp
+  - name: Scrõôll Bâår Övêêrlâåp
     link: /docs/help/help_articles/docs/scroll_bar_overlap/
     fa_icon: fas fa-caret-square-right
 
