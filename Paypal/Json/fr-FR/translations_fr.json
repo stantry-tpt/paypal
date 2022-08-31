@@ -1,0 +1,22 @@
+{
+    "glossary": {
+        "title": "èèxããmplèè glóõssããry",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "úùpdäâtêêd còóntêênt fòór úùpdäâtêê fòór púùll rêêqúùêêst còómmêênt",
+					"Acronym": "SGML",
+					"Abbrev": "ÏSÕ 8879:1986",
+					"GlossDef": {
+                        "para": "Á mêëtææ-mæærküüp læængüüæægêë, üüsêëd töó crêëæætêë mæærküüp læængüüæægêës süüch ææs DöócBöóöók nêëwböóöók TÉST.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "mâãrkûûp"
+                }
+            }
+        }
+    }
+}
