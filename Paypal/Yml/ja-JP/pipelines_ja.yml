@@ -20,7 +20,7 @@ pipelines:
               # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.
             - pipe: atlassian/checkstyle-report:0.3.0
       - step:
-          name: 承承にに医医なな継継牙牙決決おお 承承医医葉葉めめ ななのの会会葉葉決決にに会会 頡頡牙牙天天にに
+          name: ななのの会会葉葉決決にに 頡頡かか継継 医医」」葉葉めめ颉颉にに 会会にに決決にに医医決決牙牙かかめめ
           script:
             # Run a security scan for sensitive data.
             # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
