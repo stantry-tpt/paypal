@@ -1,66 +1,66 @@
 ---
 page_order: 2.4
-nav_title: Pààrààmëétëérs
-article_title: ÆPÌ Pàæràæmèëtèërs
+nav_title: Páàráàmêètêèrs
+article_title: ÅPÍ Päärääméètéèrs
 layout: glossary_page
-glossary_top_header: "Pãårãåmëêtëêrs"
-glossary_top_text: "Üsêë thêësêë pãàrãàmêëtêërs tõó dêëfíínêë yõóûúr ÃPÍ rêëqûúêësts. Thôôúúgh théé pãàrãàméétéérs yôôúú nééééd ãàréé lîístééd úúndéér ééndpôôîínts, thîís shôôúúld gîívéé yôôúú môôréé îínsîíght îíntôô thééîír núúãàncéé ãànd ôôthéér spéécîífîícãàtîíôôns."
+glossary_top_header: "Pãárãáméétéérs"
+glossary_top_text: "Ùséê théêséê päãräãméêtéêrs töô déêfîínéê yöôûùr ÆPÍ réêqûùéêsts. Thôóýügh théë pâärâäméëtéërs yôóýü néëéëd âäréë lïístéëd ýündéër éëndpôóïínts, thïís shôóýüld gïívéë yôóýü môóréë ïínsïíght ïíntôó théëïír nýüâäncéë âänd ôóthéër spéëcïífïícâätïíôóns."
 
-description: "Thïïs glõòssææry cõòvêérs ïïn dêétææïïl thêé pæærææmêétêérs ïïnvõòlvêéd ïïn mæækïïng ÅPÎ rêéqûýêésts." 
+description: "Thïís glôóssãæry côóvéërs ïín déëtãæïíl théë pãærãæméëtéërs ïínvôólvéëd ïín mãækïíng ÂPÍ réëqúûéësts." 
 page_type: glossary
 
 glossaries:
-  - name: Ãpp Gróõüýp RÈST ÃPÌ Kêëy
-    description: Thêè <code>api_key</code> îïndîïcæátèês thèê æápp tîïtlèê wîïth whîïch thèê dæátæá îïn thîïs rèêqüûèêst îïs æássóöcîïæátèêd æánd æáüûthèêntîïcæátèês thèê rèêqüûèêstèêr æás sóömèêóönèê whóö îïs æállóöwèêd tóö sèênd mèêssæágèês tóö thèê æápp. Ìt müüst béè ìînclüüdéèd wìîth éèvéèry réèqüüéèst äæs äæ HTTP Áüüthòõrìîzäætìîòõn héèäædéèr. Ìt cãæn béê fõõúûnd ìîn théê <strong>Déëvéëlôöpéër Côönsôöléë</strong> sêêctìïòõn òõf thêê Bráâzêê dáâshbòõáârd.
+  - name: Àpp Gróöûùp RËST ÀPÌ Kéèy
+    description: Théè <code>api_key</code> íìndíìcáætëès thëè áæpp tíìtlëè wíìth whíìch thëè dáætáæ íìn thíìs rëèqùúëèst íìs áæssôöcíìáætëèd áænd áæùúthëèntíìcáætëès thëè rëèqùúëèstëèr áæs sôömëèôönëè whôö íìs áællôöwëèd tôö sëènd mëèssáægëès tôö thëè áæpp. Ít müýst béë ïînclüýdéëd wïîth éëvéëry réëqüýéëst ææs ææ HTTP Áüýthóòrïîzæætïîóòn héëæædéër. Ït cãån bêë fòõýýnd îín thêë <strong>Déévéélòôpéér Còônsòôléé</strong> sèêctííôòn ôòf thèê Brããzèê dããshbôòããrd.
     field: "api_key"
-  - name: Àpp Îdëëntïïfïïëër
-    description: Íf yòôùû wâænt tòô sêénd pùûsh tòô âæ sêét òôf dêévìîcêé tòôkêéns (ìînstêéâæd òôf ùûsêérs), yòôùû nêéêéd tòô ìîndìîcâætêé òôn bêéhâælf òôf whìîch spêécìîfìîc âæpp yòôùû âærêé mêéssâægìîng. În thàåt càåséë, yóòùû wìíll próòvìídéë théë àåppróòprìíàåtéë Âpp Îdéëntìífìíéër ìín àå Tóòkéëns Õbjéëct. Ït cåæn béè fòöùùnd íìn théè <strong>Dèèvèèlóôpèèr Cóônsóôlèè</strong> sêéctìîòõn òõf thêé Brâàzêé dâàshbòõâàrd.
+  - name: Âpp Ìdéëntïífïíéër
+    description: Ìf yöòúü wäânt töò séënd púüsh töò äâ séët öòf déëvïícéë töòkéëns (ïínstéëäâd öòf úüséërs), yöòúü néëéëd töò ïíndïícäâtéë öòn béëhäâlf öòf whïích spéëcïífïíc äâpp yöòúü äâréë méëssäâgïíng. În thäàt cäàsëè, yóóúý wíïll próóvíïdëè thëè äàppróópríïäàtëè Äpp Îdëèntíïfíïëèr íïn äà Tóókëèns Ôbjëèct. Ît cåän bêè fôôúûnd íín thêè <strong>Dëévëélôòpëér Côònsôòlëé</strong> sêëctíïóõn óõf thêë Bräãzêë däãshbóõäãrd.
     field: "app_id"
-  - name: Éxtèérnâäl Ùsèér ÌD
-    description: Æ ýùnîïqýùêé îïdêéntîïfîïêér fóôr sêéndîïng áâ mêéssáâgêé tóô spêécîïfîïc ýùsêérs. Thîís îídêéntîífîíêér shóóüùld bêé thêé sàámêé àás thêé óónêé yóóüù sêét îín thêé Bràázêé SDK. Yõöúý cåán õönly tåárgëèt úýsëèrs fõör mëèssåágíïng whõö håávëè åálrëèåády bëèëèn íïdëèntíïfíïëèd thrõöúýgh thëè SDK õör thëè Ûsëèr ÂPÎ. À mãàxìîmûým ôõf 50 Èxtêèrnãàl Ûsêèr ÏDs ãàrêè ãàllôõwêèd ìîn ãà rêèqûýêèst. <br>
+  - name: Èxtéèrnàål Ùséèr ÎD
+    description: Æ úùnîîqúùêè îîdêèntîîfîîêèr fõór sêèndîîng âå mêèssâågêè tõó spêècîîfîîc úùsêèrs. Thìís ìídéèntìífìíéèr shõöûüld béè théè säåméè äås théè õönéè yõöûü séèt ìín théè Bräåzéè SDK. Yòòúú cãæn òònly tãærgéét úúséérs fòòr mééssãægìíng whòò hãævéé ãælrééãædy béééén ìídééntìífìíééd thròòúúgh théé SDK òòr théé Üséér ÅPÎ. Æ mäàxìïmûüm ôôf 50 Êxtéërnäàl Üséër ÌDs äàréë äàllôôwéëd ìïn äà réëqûüéëst. <br>
  <br>
- Föõr cáãmpáãíìgn tríìggéèr éèndpöõíìnts, íìf yöõùù pröõvíìdéè thíìs fíìéèld, théè críìtéèríìáã wíìll béè láãyéèréèd wíìth théè cáãmpáãíìgn's séègméènts áãnd öõnly ùùséèrs whöõ áãréè íìn théè líìst öõf Ëxtéèrnáãl Üséèr ÏDs áãnd théè cáãmpáãíìgn's séègméènt wíìll réècéèíìvéè théè méèssáãgéè.
+ Föór cãàmpãàîígn trîíggèër èëndpöóîínts, îíf yöóûû pröóvîídèë thîís fîíèëld, thèë crîítèërîíãà wîíll bèë lãàyèërèëd wîíth thèë cãàmpãàîígn's sèëgmèënts ãànd öónly ûûsèërs whöó ãàrèë îín thèë lîíst öóf Ëxtèërnãàl Ûsèër ÌDs ãànd thèë cãàmpãàîígn's sèëgmèënt wîíll rèëcèëîívèë thèë mèëssãàgèë.
     field: "external_user_ids"
-  - name: Sèëgmèënt Ídèëntìîfìîèër
-    description: Thêè <code>segment_id</code> ììndììcàætèès thèè sèègmèènt tôó whììch thèè mèèssàægèè shôóúúld bèè sèènt. Á Sëègmëènt Ídëèntîìfîìëèr fóôr ëèææch óôf thëè sëègmëènts yóôüù hæævëè crëèæætëèd cææn bëè fóôüùnd îìn thëè <strong>Déëvéëlôõpéër Côõnsôõléë</strong> sèëctïíôón ôóf thèë Bräâzèë däâshbôóäârd. <br>
+  - name: Séègméènt Ïdéèntììfììéèr
+    description: Thëë <code>segment_id</code> îïndîïcãætëès thëè sëègmëènt tòò whîïch thëè mëèssãægëè shòòüüld bëè sëènt. Æ Sèègmèènt Îdèèntìífìíèèr föõr èèáâch öõf thèè sèègmèènts yöõýû háâvèè crèèáâtèèd cáân bèè föõýûnd ìín thèè <strong>Dëëvëëlòópëër Còónsòólëë</strong> sëëctïìóõn óõf thëë Brææzëë dææshbóõæærd. <br>
  <br>
- Fòör mèêssåãgèê èêndpòöíìnts, íìf yòöýý pròövíìdèê bòöth åã Sèêgmèênt Ídèêntíìfíìèêr åãnd åã líìst òöf Èxtèêrnåãl Ûsèêr ÍDs íìn åã síìnglèê mèêssåãgíìng rèêqýýèêst, thèê críìtèêríìåã wíìll bèê låãyèêrèêd åãnd òönly ýýsèêrs whòö åãrèê íìn bòöth thèê líìst òöf Èxtèêrnåãl Ûsèêr ÍDs åãnd thèê pròövíìdèêd sèêgmèênt wíìll rèêcèêíìvèê thèê mèêssåãgèê.
+ Föôr mêêssæãgêê êêndpöôíînts, íîf yöôûü pröôvíîdêê böôth æã Sêêgmêênt Ìdêêntíîfíîêêr æãnd æã líîst öôf Èxtêêrnæãl Úsêêr ÌDs íîn æã síînglêê mêêssæãgíîng rêêqûüêêst, thêê críîtêêríîæã wíîll bêê læãyêêrêêd æãnd öônly ûüsêêrs whöô æãrêê íîn böôth thêê líîst öôf Èxtêêrnæãl Úsêêr ÌDs æãnd thêê pröôvíîdêêd sêêgmêênt wíîll rêêcêêíîvêê thêê mêêssæãgêê.
     field: "segment_id"
-  - name: Cãámpãáîìgn Ïdêêntîìfîìêêr
-    description: Föór mêéssåàgïïng êéndpöóïïnts, thêé <code>campaign_id</code> ììndììcàætéës théë ÁPÎ Càæmpàæììgn úùndéër whììch théë àænàælytììcs fõõr àæ méëssàægéë shõõúùld béë tràæckéëd. Ã Cåæmpåæîìgn Ídêéntîìfîìêér fóôr êéåæch óôf thêé cåæmpåæîìgns yóôûý håævêé crêéåætêéd cåæn bêé fóôûýnd îìn thêé <strong>Dëëvëëlöôpëër Cöônsöôlëë</strong> séêctïìóön óöf théê Bràæzéê dàæshbóöàærd. Ìf yöôùý pröôvíìdëé åà Cåàmpåàíìgn Ìdëéntíìfíìëér íìn thëé rëéqùýëést böôdy, yöôùý mùýst pröôvíìdëé åà <code>message_variation_id</code> íîn êëãâch òõf thêë mêëssãâgêë òõbjêëcts íîndíîcãâtíîng thêë rêëprêësêëntêëd vãâríîãânt òõf yòõùýr cãâmpãâíîgn. <br>
+  - name: Cáãmpáãîìgn Îdéëntîìfîìéër
+    description: Föôr mèêssæågììng èêndpöôììnts, thèê <code>campaign_id</code> ìïndìïcäätêès thêè ÀPÌ Cäämpääìïgn ùündêèr whìïch thêè äänäälytìïcs fôör ää mêèssäägêè shôöùüld bêè trääckêèd. Â Cããmpããîîgn Ídêèntîîfîîêèr fòôr êèããch òôf thêè cããmpããîîgns yòôüý hããvêè crêèããtêèd cããn bêè fòôüýnd îîn thêè <strong>Dëévëélôôpëér Côônsôôlëé</strong> sêêctïìôòn ôòf thêê Bräâzêê däâshbôòäârd. Íf yõõúú prõõvîídêé ãá Cãámpãáîígn Ídêéntîífîíêér îín thêé rêéqúúêést bõõdy, yõõúú múúst prõõvîídêé ãá <code>message_variation_id</code> ïïn êéàæch ôöf thêé mêéssàægêé ôöbjêécts ïïndïïcàætïïng thêé rêéprêésêéntêéd vàærïïàænt ôöf yôöùûr càæmpàæïïgn. <br>
  <br>
- Fõór cáámpááîìgn trîìggëêr ëêndpõóîìnts, thëê <code>campaign_id</code> ììndììcâàtëês thëê ÆPÌ ÌD ööf thëê câàmpâàììgn töö bëê trììggëêrëêd. Thîís fîíèèld îís rèèqýúîírèèd fóòr ãâll trîíggèèr èèndpóòîínt rèèqýúèèsts.
+ Fõòr cäæmpäæìígn trìíggëër ëëndpõòìínts, thëë <code>campaign_id</code> íìndíìcæátèès thèè ÄPÎ ÎD òöf thèè cæámpæáíìgn tòö bèè tríìggèèrèèd. Thïïs fïïëëld ïïs rëëqùùïïrëëd fõôr æâll trïïggëër ëëndpõôïïnt rëëqùùëësts.
     field: "campaign_id"
-  - name: Câänvâäs Ídëéntìïfìïëér
-    description: Fõòr Câãnvâãs trïìggéërïìng éëndpõòïìnts, théë <code>canvas_id</code> îîndîîcãætéês théê îîdéêntîîfîîéêr òöf théê Cãænvãæs tòö béê trîîggéêréêd òör schéêdùüléêd. Thìís fìíéêld ìís réêqùúìíréêd fóór àâll trìíggéêr éêndpóóìínt réêqùúéêsts.
+  - name: Cäänvääs Ïdêêntïìfïìêêr
+    description: Fôòr Cáænváæs tríïggééríïng ééndpôòíïnts, théé <code>canvas_id</code> íïndíïcæåtéès théè íïdéèntíïfíïéèr òóf théè Cæånvæås tòó béè tríïggéèréèd òór schéèdúüléèd. Thíís fííëëld íís rëëqýýíírëëd fõòr ãàll trííggëër ëëndpõòíínt rëëqýýëësts.
     field: "canvas_id"
-  - name: Séënd Îdéëntîîfîîéër
-    description: Fôór mèêssâægïìng èêndpôóïìnts, thèê <code>send_id</code> ììndììcáàtêês thêê sêênd ýúndêêr whììch thêê áànáàlytììcs fòõr áà mêêssáàgêê shòõýúld bêê tráàckêêd. Théé <code>send_id</code> åællöòws yöòýù töò pýùll båæck åænåælytìîcs föòr åæ spéêcìîfìîc ìînståæncéê öòf åæ cåæmpåæìîgn séênd vìîåæ théê <code>sends/data_series</code> ëéndpòóììnt. ÃPÎ áænd ÃPÎ trïíggêêr cáæmpáæïígns tháæt áærêê sêênt áæs áæ brôõáædcáæst wïíll áæûýtôõmáætïícáælly gêênêêráætêê áæ sêênd ïídêêntïífïíêêr ïíf áæ sêênd ïídêêntïífïíêêr ïís nôõt prôõvïídêêd. <br>
+  - name: Sëénd Îdëéntïìfïìëér
+    description: Fôór mëéssâãgìîng ëéndpôóìînts, thëé <code>send_id</code> ìíndìícãætèès thèè sèènd ûùndèèr whìích thèè ãænãælytìícs fôór ãæ mèèssãægèè shôóûùld bèè trãæckèèd. Thèé <code>send_id</code> áãllôôws yôôýý tôô pýýll báãck áãnáãlytîícs fôôr áã spéêcîífîíc îínstáãncéê ôôf áã cáãmpáãîígn séênd vîíáã théê <code>sends/data_series</code> êéndpóôìïnt. ÁPÍ äánd ÁPÍ tríïggéér cäámpäáíïgns thäát äáréé séént äás äá bróôäádcäást wíïll äáýùtóômäátíïcäálly géénééräátéé äá séénd íïdééntíïfíïéér íïf äá séénd íïdééntíïfíïéér íïs nóôt próôvíïdééd. <br>
  <br>
- Íf yòòùû wâánt tòò spèëcíïfy yòòùûr òòwn <code>send_id</code>, yöóýú'd hããvèë töó fïìrst crèëããtèë öónèë vïìãã thèë <code>sends/id/create</code> èêndpòòíínt. Thêè <code>send_id</code> mùùst bëè áâll ÃSCÎÎ cháâráâctëèrs áând áât mõõst 64 cháâráâctëèrs lõõng.  Yôöýù cään réèýùséè ää séènd îîdéèntîîfîîéèr ääcrôöss mýùltîîpléè séènds ôöf théè sääméè cäämpääîîgn îîf yôöýù wäänt tôö grôöýùp äänäälytîîcs ôöf thôöséè séènds tôögéèthéèr. <br>
+ Ìf yôóýý wããnt tôó spèécïìfy yôóýýr ôówn <code>send_id</code>, yöôûû'd hàãvéë töô fïîrst créëàãtéë öônéë vïîàã théë <code>sends/id/create</code> èëndpöòïínt. Théê <code>send_id</code> müýst béê ääll ÅSCÍÍ chäärääctéêrs äänd äät mòóst 64 chäärääctéêrs lòóng.  Yôõúú cáän rèêúúsèê áä sèênd ïîdèêntïîfïîèêr áäcrôõss múúltïîplèê sèênds ôõf thèê sáämèê cáämpáäïîgn ïîf yôõúú wáänt tôõ grôõúúp áänáälytïîcs ôõf thôõsèê sèênds tôõgèêthèêr. <br>
  <br>
- Nôótëë thããt <code>send_id</code> tráæckíîng íîs nòót áæváæíîláæblêè fòór êèmáæíîls sêènt víîáæ Máæíîljêèt. <br>
+ Nöôtèê thææt <code>send_id</code> träáckîíng îís nõôt äáväáîíläáblèê fõôr èêmäáîíls sèênt vîíäá Mäáîíljèêt. <br>
  <br>
- Cãæmpãæíîgn cõõnvèêrsíîõõns ãærèê ãættríîbûütèêd tõõ thèê lãæst trãæckèêd <code>send_id</code> thæât thëë ýûsëër rëëcëëïîvëëd frööm thæât cæâmpæâïîgn, ýûnlëëss thëë læâst sëënd thëë ýûsëër rëëcëëïîvëëd wæâs ýûntræâckëëd.
+ Cååmpååïìgn còõnvéërsïìòõns ååréë ååttrïìbùýtéëd tòõ théë lååst trååckéëd <code>send_id</code> thâät thëë ýùsëër rëëcëëïìvëëd frõòm thâät câämpâäïìgn, ýùnlëëss thëë lâäst sëënd thëë ýùsëër rëëcëëïìvëëd wâäs ýùntrâäckëëd.
     field: "send_id"
-  - name: Trìîggèër Prõöpèërtìîèës
-    description: "Whèën üûsïíng öõnèë öõf thèë èëndpöõïínts föõr sèëndïíng æá cæámpæáïígn wïíth ÄPÏ-Trïíggèërèëd Dèëlïívèëry, yöõüû mæáy pröõvïídèë æá mæáp öõf kèëys æánd væálüûèës töõ cüûstöõmïízèë yöõüûr mèëssæágèë. Îf yõôûú mâäkèë âän ÁPÎ rèëqûúèëst thâät cõôntâäííns âän õôbjèëct íín <code>\"trigger_properties\"</code>, thëê væälúýëês ïìn thæät ôòbjëêct cæän thëên bëê rëêfëêrëêncëêd ïìn yôòúýr mëêssæägëê tëêmplæätëê úýndëêr thëê <code>api_trigger_properties</code> nâãméèspâãcéè. <br>
+  - name: Trììggèér Prööpèértììèés
+    description: "Whëën ûüsííng õönëë õöf thëë ëëndpõöíínts fõör sëëndííng åæ cåæmpåæíígn wííth ÄPÍ-Trííggëërëëd Dëëlíívëëry, yõöûü måæy prõövíídëë åæ måæp õöf këëys åænd våælûüëës tõö cûüstõömíízëë yõöûür mëëssåægëë. Ìf yôòùý máäkèé áän ÂPÌ rèéqùýèést tháät côòntáäíîns áän ôòbjèéct íîn <code>\"trigger_properties\"</code>, thèë våälüýèës ììn thåät ôöbjèëct cåän thèën bèë rèëfèërèëncèëd ììn yôöüýr mèëssåägèë tèëmplåätèë üýndèër thèë <code>api_trigger_properties</code> nâàmëèspâàcëè. <br>
  <br>
- Fõór èèxãämplèè, ãä rèèqùùèèst wíïth <code>\"trigger_properties\" : {\"product_name\" : \"shoes\", \"product_price\" : 79.99}</code> cóöúúld âädd théë wóörd \"shõòêès\" tôô thèê mèêssäãgèê by äãddîïng <code>{{api_trigger_properties.${product_name}}}</code>."
+ Föòr éëxáåmpléë, áå réëqùùéëst wïïth <code>\"trigger_properties\" : {\"product_name\" : \"shoes\", \"product_price\" : 79.99}</code> côôýùld áãdd théè wôôrd \"shóôëès\" tòõ théé mééssäägéé by ääddïîng <code>{{api_trigger_properties.${product_name}}}</code>."
     field: "trigger_properties"
-  - name: Cæãnvæãs Éntry Prôöpëërtìíëës
-    description: "Whêën úúsïîng öõnêë öõf thêë êëndpöõïînts föõr trïîggêërïîng öõr schêëdúúlïîng àæ Càænvàæs vïîàæ thêë ÁPÎ, yöõúú màæy pröõvïîdêë àæ màæp öõf kêëys àænd vàælúúêës töõ cúústöõmïîzêë mêëssàægêës sêënt by thêë fïîrst stêëps öõf yöõúúr Càænvàæs, ïîn thêë <code>\"canvas_entry_properties\"</code> nââmêêspââcêê. <br>
+  - name: Cáãnváãs Èntry Próôpèërtíìèës
+    description: "Whéèn ýüsîìng öönéè ööf théè éèndpööîìnts föör trîìggéèrîìng öör schéèdýülîìng áæ Cáænváæs vîìáæ théè ÂPÍ, yööýü máæy pröövîìdéè áæ máæp ööf kéèys áænd váælýüéès töö cýüstöömîìzéè méèssáægéès séènt by théè fîìrst stéèps ööf yööýür Cáænváæs, îìn théè <code>\"canvas_entry_properties\"</code> nãámèèspãácèè. <br>
  <br>
- Fòòr êèxâámplêè, âá rêèqýùêèst wìîth <code>\"canvas_entry_properties\" : {\"product_name\" : \"shoes\", \"product_price\" : 79.99}</code> cóöúýld ààdd théê wóörd \"shòõèês\" töò æà mêëssæàgêë by æàddïîng <code>{{canvas_entry_properties.${product_name}}}</code>."
+ Fõôr ëëxàãmplëë, àã rëëqúûëëst wîíth <code>\"canvas_entry_properties\" : {\"product_name\" : \"shoes\", \"product_price\" : 79.99}</code> côõúüld åãdd thëê wôõrd \"shõõëês\" tôõ âá mèêssâágèê by âáddíïng <code>{{canvas_entry_properties.${product_name}}}</code>."
     field: "canvas_entry_properties"
-  - name: Bròôåådcååst
-    description: "Whëén sëéndîíng åá mëéssåágëé tòò åá sëégmëént òòr cåámpåáîígn åáûüdîíëéncëé ûüsîíng åán ÄPÍ ëéndpòòîínt, Bråázëé rëéqûüîírëés yòòûü tòò ëéxplîícîítly dëéfîínëé whëéthëér òòr nòòt yòòûür mëéssåágëé îís åá \"bróõàædcàæst\" tôó âå lâårgêë grôóûýp ôóf ûýsêërs by ììnclûýdììng âå <code>broadcast</code> bòôòôlèèæân îìn thèè ÁPÍ cæâll. Thåát îîs, îîf yõöûý îîntéênd tõö séênd åán ÆPÍ méêssåágéê tõö théê éêntîîréê séêgméênt thåát åá cåámpåáîîgn õör Cåánvåás tåárgéêts, yõöûý mûýst îînclûýdéê <code>broadcast: true</code> îìn yöõüür ÅPÍ câåll. <br>
+  - name: Bróõâádcâást
+    description: "Whëén sëéndíìng åå mëéssåågëé tóó åå sëégmëént óór cååmpååíìgn ååúûdíìëéncëé úûsíìng åån ÀPÌ ëéndpóóíìnt, Brååzëé rëéqúûíìrëés yóóúû tóó ëéxplíìcíìtly dëéfíìnëé whëéthëér óór nóót yóóúûr mëéssåågëé íìs åå \"bròôäâdcäâst\" töò àá làárgéê gröòûüp öòf ûüséêrs by îînclûüdîîng àá <code>broadcast</code> bóòóòlèèåån ìîn thèè ÁPÌ cååll. Thâät ìís, ìíf yóöûù ìíntêénd tóö sêénd âän ÁPÏ mêéssâägêé tóö thêé êéntìírêé sêégmêént thâät âä câämpâäìígn óör Câänvâäs tâärgêéts, yóöûù mûùst ìínclûùdêé <code>broadcast: true</code> îïn yóöûùr ÁPÌ cäæll. <br>
 <br>
-Bröôáådcáåst ïïs áå réèqýûïïréèd fïïéèld áånd théè déèfáåýûlt váålýûéè séèt by Bráåzéè whéèn áå cáåmpáåïïgn öôr Cáånváås ïïs máådéè ïïs <code>broadcast: false</code>. Yööûü câæn't hâævèè bööth <code>broadcast: true</code> áänd áä <code>recipients</code> lííst spéêcíífííéêd. Íf thëé <code>broadcast</code> flæåg íís sêët tòõ trýúêë æånd æån êëxplíícíít lííst òõf rêëcíípííêënts íís pròõvíídêëd, thêë ÂPÍ êëndpòõíínt wííll rêëtýúrn æån êërròõr. Sïïmïïláärly, ïïnclûüdïïng <code>broadcast: false</code> áånd nòôt pròôvîïdîïng áå rëècîïpîïëènt lîïst wîïll rëètüýrn áån ëèrròôr. 
+Bròóäädcääst ïís ää rèéqüùïírèéd fïíèéld äänd thèé dèéfääüùlt väälüùèé sèét by Brääzèé whèén ää cäämpääïígn òór Cäänvääs ïís määdèé ïís <code>broadcast: false</code>. Yòôûý cæãn't hæãvëé bòôth <code>broadcast: true</code> âånd âå <code>recipients</code> lîíst spéécîífîíééd. Ìf thèë <code>broadcast</code> fläâg ïîs séêt tõö trýýéê äând äân éêxplïîcïît lïîst õöf réêcïîpïîéênts ïîs prõövïîdéêd, théê ÄPÏ éêndpõöïînt wïîll réêtýýrn äân éêrrõör. Síîmíîlãàrly, íînclýúdíîng <code>broadcast: false</code> áánd nòót pròóvîìdîìng áá réècîìpîìéènt lîìst wîìll réètûùrn áán éèrròór. 
     
     <br>
 <br>
-Ûsèê cæàùütïîôõn whèên sèêttïîng <code>broadcast: true</code>, äàs üùnîìntëèntîìõónäàlly sëèttîìng thîìs fläàg mäày cäàüùsëè yõóüù tõó sëènd yõóüùr cäàmpäàîìgn õór Cäànväàs tõó äà läàrgëèr thäàn ëèxpëèctëèd äàüùdîìëèncëè. Théê <code>broadcast</code> flããg íîs rëèqúýíîrëèd tõö prõötëèct ããgããíînst ããccíîdëèntããl sëènds tõö lããrgëè grõöúýps õöf úýsëèrs."
+Ùsèé cæáýùtïïóôn whèén sèéttïïng <code>broadcast: true</code>, àæs ùýnîìntééntîìöónàælly sééttîìng thîìs flàæg màæy càæùýséé yöóùý töó séénd yöóùýr càæmpàæîìgn öór Càænvàæs töó àæ làærgéér thàæn ééxpééctééd àæùýdîìééncéé. Thêë <code>broadcast</code> flåãg îîs rèêqùüîîrèêd tõô prõôtèêct åãgåãîînst åãccîîdèêntåãl sèênds tõô låãrgèê grõôùüps õôf ùüsèêrs."
     field: "broadcast"
     
 ---
