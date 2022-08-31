@@ -6,7 +6,7 @@ guide_top_header: "update for change detection"
 guide_top_text: "Check out the following resources for additional information related to the Braze Documentation site."
 
 page_type: landing
-description: "This test file page includes resources related to the Braze Documentation site, such as how to contribute to Braze's open source docs."
+description: "This test file page includes resources related to the Braze Documentation site, New featureB"
 noindex: true
 guide_menu_title: ""
 guide_menu_list:
