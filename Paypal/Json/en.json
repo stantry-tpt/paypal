@@ -9,7 +9,7 @@
 
   "output.saveFile": "Download",
 
-  "welcomePage.title": "Welcome to Blue Prism Desktop",
+  "welcomePage.title": "Welcome to GlobalLink Desktop",
   "welcomePage.connectionSelectLabel": "Connection",
   "welcomePage.SharedConnectionsOpt": "Shared connections",
   "welcomePage.LocalConnectionsOpt": "Local connections",
@@ -44,7 +44,7 @@
 
   "inputStage.timer": " Time Left: {time}",
   "inputStage.submitButton": "Submit",
-  "inputStage.defaultValuesButton": "Use default values",
+  "inputStage.defaultValuesButton": "Use default values updated with new values",
   "inputStage.dateErrorText": "The date is invalid and should be between 01/01/1000 and 31/12/9999",
   "inputStage.dateTimeErrorText": "The date time is invalid and should be between 01/01/1000 and 31/12/9999",
   "inputStage.timeErrorText": "Please enter a valid time",
