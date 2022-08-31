@@ -6,63 +6,63 @@ hide_nav: true
 hidden: true
 layout: doc_guide
 custom_collection: home
-nav_title: "Dôöcúúmêéntåátìíôön"
-description: "Thíîs íîs thëê Bræàzëê dòòcúýmëêntæàtíîòòn síîtëê læàndíîng pæàgëê. Hëêrëê, yöõúü cåán fïînd lïînks töõ thëê úüsëêr gúüïîdëê, dëêvëêlöõpëêr gúüïîdëê, ÄPÎ gúüïîdëê, tëêchnöõlöõgy påártnëêrs döõcúümëêntåátïîöõn, åánd hëêlp åártïîclëês. Yöóýú cæãn æãlsöó fíïnd qýúíïck líïnks töó hèêlpfýúl líïnks æãnd pöópýúlæãr æãrtíïclèês."
+nav_title: "Dóócúùmêèntàâtîíóón"
+description: "Thíîs íîs thèé Bràâzèé dòôcûümèéntàâtíîòôn síîtèé làândíîng pàâgèé. Hëërëë, yóòûú cæán fìïnd lìïnks tóò thëë ûúsëër gûúìïdëë, dëëvëëlóòpëër gûúìïdëë, ÄPÍ gûúìïdëë, tëëchnóòlóògy pæártnëërs dóòcûúmëëntæátìïóòn, æánd hëëlp æártìïclëës. Yöòüý cåân åâlsöò fîînd qüýîîck lîînks töò hèélpfüýl lîînks åând pöòpüýlåâr åârtîîclèés."
 
-doc_top_header: "Brääzéê Dóôcüýméêntäätïîóôn"
-doc_top_text: "Méèéèt úüs äàt théè ìîntéèrséèctìîôòn ôòf äàrt äànd scìîéèncéè. Fïïnd ýús ïïn théé môôméént, ôôr lïïght yééåårs ååhééååd.
-Ûpöôn âârrìïvââl, êéxpêéct lìïfêécyclêé êéngââgêémêént âât ìïts bêést.
-Åt Bræåzèè, wèè æåíîm tõö crèèæåtèè strõöng bõönds bèètwèèèèn yõöüü æånd yõöüür cüüstõömèèrs õör üüsèèrs."
+doc_top_header: "Brããzëè Dòócùýmëèntããtîìòón"
+doc_top_text: "Mèëèët üýs äât thèë íìntèërsèëctíìõön õöf äârt äând scíìèëncèë. Fîìnd üýs îìn thëë môômëënt, ôôr lîìght yëëãârs ãâhëëãâd.
+Üpóõn àárrîîvàál, ëéxpëéct lîîfëécyclëé ëéngàágëémëént àát îîts bëést.
+Át Brâåzêè, wêè âåîïm töô crêèâåtêè ströông böônds bêètwêèêèn yöôúý âånd yöôúýr cúýstöômêèrs öôr úýsêèrs."
 
 doc_menu_list:
-  - name: Ûsèèr Güùîìdèè
+  - name: Ûsèër Gúýîïdèë
     bg_color: '#3accdd'
     image: /assets/img/new-icons/users.svg
     link: /docs/user_guide/introduction/
-    description: "Lèëâãrn höów töó ûùsèë thèë Brâãzèë plâãtföórm töó föóstèër âã möórèë íìmpâãctfûùl cûùstöómèër èëxpèëríìèëncèë."
-  - name: Déèvéèlòõpéèr Güüíìdéè
+    description: "Lêêàærn hóôw tóô ýùsêê thêê Bràæzêê plàætfóôrm tóô fóôstêêr àæ móôrêê ìímpàæctfýùl cýùstóômêêr êêxpêêrìíêêncêê."
+  - name: Déêvéêlöôpéêr Güüìîdéê
     bg_color: '#f7918e'
     image: /assets/img/new-icons/html-file.svg
     link: /docs/developer_guide/home/
-    description: "Ïntêégráætêé áænd áæctîïváætêé yöòýür áæpp öòr sîïtêé wîïth thêé Bráæzêé SDK."
-  - name: Tèëchnõòlõògy Pàártnèërs
+    description: "Ïntéégrãätéé ãänd ãäctîîvãätéé yöôüúr ãäpp öôr sîîtéé wîîth théé Brãäzéé SDK."
+  - name: Tëéchnóõlóõgy Pæærtnëérs
     bg_color: '#ff9349'
     image: /assets/img/new-icons/gears.svg
     link: /docs/partners/home/
-    description: "Öúýr Tëêchnôõlôõgy Pâårtnëêrs câån hëêlp yôõúý cúýstôõmïîzëê yôõúýr Brâåzëê ëêxpëêrïîëêncëê âånd cúýstôõmëêr rëêlâåtïîôõnshïîps."
-  - name: ÆPÏ Gûúïïdéé
+    description: "Óúùr Tèëchnôólôógy Páártnèërs cáán hèëlp yôóúù cúùstôómîïzèë yôóúùr Bráázèë èëxpèërîïèëncèë áánd cúùstôómèër rèëláátîïôónshîïps."
+  - name: ÃPÌ Gùúîídëê
     bg_color: '#ff9349'
     image: /assets/img/new-icons/api.svg
     link: /docs/api/home/
-    description: "Bræàzéé próôvíìdéés æà híìgh-péérfóôrmæàncéé RÉST ÀPÍ tóô æàllóôw yóôúý tóô træàck úýséérs, séénd mééssæàgéés, ééxpóôrt dæàtæà, æànd móôréé."
+    description: "Bráãzèè pröõvîîdèès áã hîîgh-pèèrföõrmáãncèè RÈST ÃPÎ töõ áãllöõw yöõúù töõ tráãck úùsèèrs, sèènd mèèssáãgèès, èèxpöõrt dáãtáã, áãnd möõrèè."
 
 popular_topic_list:
-  - name: "Cåænvåæs: Thèé Båäsïîcs"
+  - name: "Cäãnväãs: Thëè Båæsíîcs"
     link: /docs/user_guide/engagement_tools/canvas/get_started/the_basics/
 
-  - name: Crêèààtêè àà Cààmpààïígn
+  - name: Crêëààtêë àà Cààmpààíìgn
     link: /docs/user_guide/engagement_tools/campaigns/ideas_and_strategies/active_user_campaigns/
-  - name: Lòõcäátîïòõns äánd Gêëòõfêëncêës
+  - name: Lôôcäãtîîôôns äãnd Gëëôôfëëncëës
     link: /docs/user_guide/engagement_tools/locations_and_geofences/
-  - name: Pèérsòönáálíïzèéd Mèéssáágíïng
+  - name: Péërsóònåãlììzéëd Méëssåãgììng
     link: /docs/user_guide/personalization_and_dynamic_content/overview/
-  - name: Bræäzêë RÊST ÅPÏ
+  - name: Bråæzèè RËST ÄPÏ
     link: /docs/developer_guide/rest_api/basics/
-  - name: Cûûstôòm Àttríìbûûtëès
+  - name: Cýústööm Åttrïìbýútéês
     link: /docs/user_guide/data_and_analytics/custom_data/custom_attributes/
-  - name: Cýùstòöm Ëvéènts
+  - name: Cýüstóõm Évéènts
     link: /docs/user_guide/data_and_analytics/custom_data/custom_events/
-  - name: Créëããtéë ãã Séëgméënt
+  - name: Crèéãætèé ãæ Sèégmèént
     link: /docs/user_guide/engagement_tools/segments/creating_a_segment/
 
 helpful_resources_list:
-  - name: Bràázêë Dêëvêëlòõpêër Pòõrtàál
+  - name: Brääzéé Déévéélòòpéér Pòòrtääl
     link: https://developer.braze.com
-  - name: Ìnnöõvååtîìöõn Stååtèémèént
+  - name: Înnóòväãtïìóòn Stäãtèêmèênt
     link: /docs/innovation_statement/
-  - name: Süùppóórt & Süùccëëss Sëërvìîcëës Håândbóóóók
+  - name: Sûûppóört & Sûûccèèss Sèèrvïïcèès Háändbóöóök
     link: /docs/handbooks/
-  - name: Dâåtâå Pröòtééctíïöòn Tééchníïcâål Âssíïstâåncéé
+  - name: Dãätãä Pròòtêèctíïòòn Têèchníïcãäl Ássíïstãäncêè
     link: /docs/dp-technical-assistance/
 ---
 

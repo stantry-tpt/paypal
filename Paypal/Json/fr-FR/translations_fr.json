@@ -1,20 +1,20 @@
 {
     "glossary": {
-        "title": "èèxààmplèè glóóssààry",
+        "title": "éèxàãmpléè glóõssàãry",
 		"GlossDiv": {
             "title": "S",
 			"GlossList": {
                 "GlossEntry": {
                     "ID": "SGML",
 					"SortAs": "SGML",
-					"GlossTerm": "ýüpdåátèéd cõôntèént fõôr chåángèé dèétèéctïìõôn",
+					"GlossTerm": "ûùpdâàtêëd cõõntêënt fõõr ûùpdâàtêë fõõr pûùll rêëqûùêëst cõõmmêënt",
 					"Acronym": "SGML",
-					"Abbrev": "ÍSÒ 8879:1986",
+					"Abbrev": "ÎSÔ 8879:1986",
 					"GlossDef": {
-                        "para": "À mëêtàã-màãrkúýp làãngúýàãgëê, úýsëêd töò crëêàãtëê màãrkúýp làãngúýàãgëês súých àãs DöòcBöòöòk nëêwböòöòk TÊST.",
+                        "para": "Â méètåâ-måârkýüp låângýüåâgéè, ýüséèd tõõ créèåâtéè måârkýüp låângýüåâgéès sýüch åâs DõõcBõõõõk néèwbõõõõk TËST.",
 						"GlossSeeAlso": ["GML", "XML"]
                     },
-					"GlossSee": "måârkûúp"
+					"GlossSee": "mãàrküûp"
                 }
             }
         }

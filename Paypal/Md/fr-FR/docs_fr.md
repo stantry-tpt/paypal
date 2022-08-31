@@ -1,19 +1,19 @@
 ---
 page_order: 10
-nav_title: Dóõcs
+nav_title: Döócs
 layout: dev_guide
-guide_top_header: "üúpdáâtêé fõór cháângêé dêétêéctíïõón"
-guide_top_text: "Chééck ôòûút théé fôòllôòwììng réésôòûúrcéés fôòr äåddììtììôònäål ììnfôòrmäåtììôòn rééläåtééd tôò théé Bräåzéé Dôòcûúmééntäåtììôòn sììtéé."
+guide_top_header: "üýpdæåtéé fõôr chæångéé déétééctïìõôn"
+guide_top_text: "Chéëck öóúút théë föóllöówìíng réësöóúúrcéës föór äàddìítìíöónäàl ìínföórmäàtìíöón réëläàtéëd töó théë Bräàzéë Döócúúméëntäàtìíöón sìítéë."
 
 page_type: landing
-description: "Thîïs låàndîïng påàgéë îïnclùüdéës réësóõùürcéës réëlåàtéëd tóõ théë Bråàzéë Dóõcùüméëntåàtîïóõn sîïtéë, sùüch åàs hóõw tóõ cóõntrîïbùütéë tóõ Bråàzéë's óõpéën sóõùürcéë dóõcs."
+description: "Thïïs tëëst fïïlëë pæágëë ïïnclùûdëës rëësöóùûrcëës rëëlæátëëd töó thëë Bræázëë Döócùûmëëntæátïïöón sïïtëë, sùûch æás höów töó cöóntrïïbùûtëë töó Bræázëë's öópëën söóùûrcëë döócs."
 noindex: true
 guide_menu_title: ""
 guide_menu_list:
-  - name: Còòntrîìbúütîìng tòò Bräâzéè Dòòcs
+  - name: Côõntrïîbûútïîng tôõ Bræâzêé Dôõcs
     link: /docs/help/help_articles/docs/contribution/
     fa_icon: fas fa-edit
-  - name: Scrõóll Bâár Övêérlâáp
+  - name: Scróöll Båâr Övëêrlåâp
     link: /docs/help/help_articles/docs/scroll_bar_overlap/
     fa_icon: fas fa-caret-square-right
 
