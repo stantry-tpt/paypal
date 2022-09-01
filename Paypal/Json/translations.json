@@ -10,6 +10,7 @@
 					"GlossTerm": "updated content for update for pull request comment_number of days",
 					"Acronym": "git comment pr",
 					"Abbrev": "ISO 8879:1986",
+					"SortAs": "SGML",
 					"GlossDef": {
                         "para": "A meta-markup language, used to create markup languages such as DocBook newbook TEST.",
 						"GlossSeeAlso": ["GML", "XML"]
