@@ -11,7 +11,7 @@
 					"Acronym": "git comment pr updated",
 					"Abbrev": "ISO 8879:1986",
 			"new" : "check PR Closed_new update",
-			"Test" : "test the update in file",
+			"Test" : "test the update in file new session",
 					"GlossDef": {
                         "para": "A meta-markup language, used to create markup languages such as DocBook newbook TEST.",
 						"GlossSeeAlso": ["GML", "XML"]
