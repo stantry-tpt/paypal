@@ -11,7 +11,7 @@ pipelines:
   default:
     - parallel:
       - step:
-          name: Aufbau und Test
+          name: Aufbau und Test german translation
           caches:
             - maven
           script:
