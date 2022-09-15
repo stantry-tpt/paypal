@@ -1,6 +1,6 @@
 {
   "footer.helpCenter.link": "Centre d’aide pour la fonctionnalité de succursaleA",
-  "footer.helpCenter.link.ariaLabel": "Centre d’aide (s’ouvre dans une nouvelle fenêtre pour la traduction)mise à jour",
+  "footer.helpCenter.link.ariaLabel": "Centre d’aide (s’ouvre dans une nouvelle fenêtre pour la traduction)mise à journouveau",
 
   "navBar.navItem.recent": "Récent",
   "navBar.navItem.history": "Historique",
@@ -20,7 +20,7 @@
   "welcomePage.connectionError": "Erreur de connexion",
   "authentication.connectionError": "Erreur de connexion",
 
-  "languageSelect.openButtonLabel": "Ouvrir les options",
+  "languageSelect.openButtonLabel": "Options ouvertes",
   "languageSelect.clearButtonLabel": "Effacer la recherche",
   "savedConnections.title": "Connexions enregistrées",
   "savedConnections.connectionsCountSingular": "1 connexion",
@@ -49,7 +49,7 @@
   "inputStage.dateTimeErrorText": "La date et l’heure ne sont pas valides et doivent être comprises entre le 01/01/1000 et le 31/12/9999",
   "inputStage.timeErrorText": "Veuillez saisir une heure valide",
   "inputStage.timeSpanErrorText": "Veuillez saisir une période valide",
-  "inputStage.numberErrorText": "Veuillez saisir un nombre valide",
+  "inputStage.numberErrorText": "Veuillez saisir un numéro valide",
   "inputStage.defaultPasswordHelperText": "Laissez le champ vide pour utiliser la valeur de mot de passe par défaut.",
   "inputStage.stopButton": "Arrêter le processus",
   "inputStage.imageErrorText": "Veuillez télécharger un fichier image valide",
@@ -59,7 +59,7 @@
 
   "addEditConnection.connectionName.label": "Nom de la connexion",
   "addEditConnection.authenticationServer.label": "URL pour Authentication Server",
-  "addEditConnection.digitalWorkerApi.label": "URL pour l’API Digital Worker",
+  "addEditConnection.digitalWorkerApi.label": "URL pour l’API de l’employé numérique",
   "addEditConnection.bluePrismApi.label": "URL pour l’API Blue Prism",
   "addEditConnection.error": "Blue Prism Desktop a rencontré un problème. Veuillez redémarrer l’application et réessayer.",
 
@@ -119,7 +119,7 @@
   "library.groupError.rootGroup.title": "Impossible de charger la bibliothèque",
   "library.groupError.title": "Impossible de charger le groupe",
   "library.groupError.subText": "Blue Prism Desktop ne peut pas charger la liste des éléments, veuillez cliquer sur Retour pour revenir à la page précédente. Si le problème persiste, veuillez contacter votre administrateur système pour obtenir de l’aide.",
-  "library.groupError.backButton": "Arrière",
+  "library.groupError.backButton": "Retour",
 
   "library.loading.text": "Chargement",
   "library.breadcrumb": "Bibliothèque",
@@ -164,7 +164,7 @@
   "history.title": "Historique des sessions",
   "history.breadcrumb": "Historique",
   "history.emptyView.title": "L’historique de session est vide",
-  "history.emptyView.subText": "Il n’y a actuellement aucune information de session que vous pouvez consulter. Cela peut être dû au fait qu’aucune session n’a été exécutée ou qu’il y a un problème. Veuillez contacter un administrateur si vous avez besoin d’aide supplémentaire.",
+  "history.emptyView.subText": "Il n’y a actuellement aucune information de session disponible pour que vous puissiez la consulter. Cela peut être dû au fait qu’aucune session n’a été exécutée ou qu’il y a un problème. Veuillez contacter un administrateur si vous avez besoin d’aide supplémentaire.",
   "history.error.title": "Impossible de charger l’historique de session",
   "history.error.subText": "Blue Prism Desktop ne peut pas charger l’historique de session. Veuillez contacter votre administrateur système pour obtenir de l’aide.",
   "history.error.viewParameters.title": "Impossible de charger les {parameterType} paramètres",
@@ -259,7 +259,7 @@
   "fileInput.clearButton": "Effacer",
 
   "notification.title": "Erreur",
-  "notification.titleSuccess": "Réussite",
+  "notification.titleSuccess": "Succès",
   "notification.titleAlert": "Alerte",
   "notification.titleInfo": "Informations",
   "startupParameters.runButton": "Exécuter",
@@ -285,7 +285,7 @@
   "noAvailableLicenses.link": "Retour à l’écran d’accueil",
 
   "accountLicenseNotAvailableImage.title": "Cet ordinateur n’est plus disponible pour exécuter Blue Prism Desktop",
-  "accountLicenseNotAvailableImage.body": "Le statut de cet ordinateur a été modifié en « retiré » pour Blue Prism Desktop, ce qui signifie qu’il ne peut pas actuellement exécuter Blue Prism Desktop. Veuillez contacter votre administrateur système pour obtenir de l’aide.",
+  "accountLicenseNotAvailableImage.body": "L’état de cet ordinateur a été modifié en « retiré » pour Blue Prism Desktop, ce qui signifie qu’il ne peut pas actuellement exécuter Blue Prism Desktop. Veuillez contacter votre administrateur système pour obtenir de l’aide.",
   "accountLicenseNotAvailableImage.link": "Retour à l’écran d’accueil",
 
   "unableToRetrieveSettings.title": "Un problème est survenu lors de la récupération de vos paramètres utilisateur",
@@ -319,7 +319,7 @@
   "common.saveButton": "Enregistrer les modifications",
   "common.backToTopButton": "Retour en haut",
   "common.default": "Par défaut",
-  "common.backButton": "Arrière",
+  "common.backButton": "Retour",
 
   "common.day": "Jour",
   "common.month": "Mois",
@@ -327,7 +327,7 @@
   "common.dateTime.hour": "Heure",
   "common.timespan.hour": "Heure",
   "common.minute": "Minute",
-  "common.second": "Deuxième",
+  "common.second": "Seconde",
   "common.true": "Vrai",
   "common.loading": "Chargement",
   "common.connectionError": "Blue Prism Desktop a rencontré un problème. Veuillez redémarrer l’application et réessayer.",
@@ -346,7 +346,7 @@
   "BH000005": "L’ID de processus n’est pas fourni.",
   "BH000006": "L’ID de processus n’est pas valide.",
   "BH000007": "Une erreur s’est produite lors de la synchronisation des journaux de session. Veuillez contacter votre administrateur système.",
-  "BH000008": "Erreur d’enregistrement client inattendue,",
+  "BH000008": "Erreur inattendue d’enregistrement du client,",
   "BH000009": "Échec de l’enregistrement du client",
   "BH000010": "Problème lors de la tentative d’autorisation.",
   "BH000011": "Impossible de supprimer la configuration.",
@@ -358,7 +358,7 @@
   "BH000017": "Échec de la mise à jour des informations d’identification dans le magasin d’informations d’identification.",
   "BH000018": "Impossible de récupérer les informations d’identification du magasin d’informations d’identification.",
   "BH000020": "Échec de l’enregistrement du client. Cet ordinateur n’est plus disponible pour exécuter Blue Prism Desktop.",
-  "BH000021": "Échec de l’enregistrement du client. Aucune licence disponible.",
+  "BH000021": "Échec de l’enregistrement du client. Aucune licence n’est disponible.",
   "BH000022": "L’importation a échoué car le fichier n’est pas au bon format. Veuillez contacter votre administrateur système pour obtenir de l’aide.",
   "BH000023": "L’importation a échoué car les informations requises sont manquantes.",
   "BH000024": "L’importation a échoué car le fichier de configuration de connexion est ouvert ou est utilisé par un autre processus.",
