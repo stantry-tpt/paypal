@@ -1,13 +1,13 @@
 {
   "footer.helpCenter.link": "Help Center für Zweigstellen-FunktionA",
-  "footer.helpCenter.link.ariaLabel": "Help Center (wird in einem neuen Fenster zur Übersetzung geöffnet)aktualisieren",
+  "footer.helpCenter.link.ariaLabel": "Help Center (wird in einem neuen Fenster zur Übersetzung geöffnet)neu aktualisieren",
 
   "navBar.navItem.recent": "Kürzlich",
   "navBar.navItem.history": "Geschichte",
   "navBar.navItem.library": "Bibliothek",
   "navBar.navItem.settings": "Einstellungen",
 
-  "output.saveFile": "Download",
+  "output.saveFile": "Herunterladen",
 
   "welcomePage.title": "Willkommen bei GlobalLink Desktop",
   "welcomePage.connectionSelectLabel": "Verbindung",
