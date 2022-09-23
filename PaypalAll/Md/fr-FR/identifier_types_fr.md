@@ -2,44 +2,44 @@
 nav_title: "Types d’identifiant API"
 article_title: Types d’identifiant API
 page_order: 2.2
-description: "Cet article de référence couvre les différents types d’identifiants API qui existent dans le tableau de bord Braze, où vous pouvez les trouver et à quoi ils servent." 
+description: "Cet article de référence couvre les différents types d’identifiants de API qui existent dans le tableau de bord Braze, où vous pouvez les trouver et ce pour quoi ils sont utilisés." 
 page_type: reference
 
 ---
 
 # Types d’identifiant API
 
-> Ce guide de référence aborde les différents types d’identifiants API qui se trouvent dans le tableau de bord Braze, leur objectif, où vous pouvez les trouver et comment ils sont généralement utilisés. Pour plus d’informations sur les clés API REST ou les clés API du groupe d’applications, reportez-vous à la présentation des clés API [Rest]({{site.baseurl}}/api/api_key/)
+> Ce guide de référence porte sur les différents types d’identifiants de API que l’on peut trouver dans le tableau de bord Braze, leur but, où vous pouvez les trouver et la manière dont ils sont généralement utilisés. Pour en savoir plus sur les clés REST API ou sur les clés API de groupes d’applications, reportez-vous au reste API Aperçu de la [clé.]({{site.baseurl}}/api/api_key/)
 
-Les identifiants API suivants peuvent être utilisés pour accéder à votre modèle, toile, campagne, segment, envoi ou carte à partir de l’API externe de Braze. Tous les messages doivent suivre le codage [UTF-8][1].
+Les identifiants de API suivants peuvent être utilisés pour accéder à votre modèle, toile, campagne, segment, envoi ou carte depuis la API externe de Braze. Tous les messages doivent suivre [l’encodage UTF-8][1] .
 
 {% tabs %}
 {% tab App Ids %}
 
-## La clé API App Identifier
+## La clé API de l’identifiant de l’application
 
-La clé API App Identifier ou `app_id` est un paramètre associant une activité à une application spécifique dans votre groupe d’applications. Il désigne l’application du groupe d’applications avec lequel vous interagissez. Par exemple, vous trouverez que vous aurez un `app_id` pour votre application iOS, un `app_id` pour votre application Android et un `app_id` pour votre intégration Web. Chez Braze, vous pourriez trouver que vous avez plusieurs applications pour la même plateforme sur les différents types de plateforme pris en charge par Braze.
+L’identifiant de l’application API clé ou `app_id` est un paramètre associant l’activité à une application spécifique du groupe d’applications. Il désigne l’application avec laquelle vous interagissez au sein du groupe d’applications avec lequel vous communiquez. Par exemple, vous vous trouverez que vous aurez une `app_id` pour votre application iOS, une `app_id` pour votre application Android et une `app_id` pour votre intégration web. Chez Braze, vous pouvez trouver plusieurs applications pour la même plateforme sur les différents types de plateforme que Braze prend en charge.
 
-#### Où puis-je le trouver ?
+#### Où puis-je la trouver ?
 
-Il existe deux façons de localiser votre `app_id` :
+Vous pouvez trouver vos :`app_id`
 
-1. Vous pouvez trouver cet identifiant `app_id` ou l’identifiant de l’application dans la console **** Developer sous **Paramètres**. Sur cette nouvelle page, sous **Identification**, vous pourrez voir toutes celles `app_id` qui existent pour vos applications.
+1. Vous pouvez trouver cet `app_id` identifiant ou l’identifiant d’application dans la **console** de développement sous **Paramètres**. Sur cette nouvelle page, sous **Identification**, vous pourrez voir tout ce `app_id` qui existe pour vos applications.
 
-2. Accédez à **Gérer les paramètres** sous **Paramètres**. À partir de cette nouvelle page, dans l’onglet **Paramètres**, à mi-chemin de la page, vous trouverez une « clé API pour NOM** DE L’**APPLICATION sur **la PLATEFORME**» (par ex. « Clé API pour glace sur iOS). Cette clé API est votre identifiant d’application.
+2. Accédez à **Gérer les paramètres** sous **Paramètres**. Sur cette nouvelle page, dans l’onglet **Paramètres** , à mi-chemin de la page, vous trouverez une « clé API pour **APP NAME** on **PLATFORM** » (par exemple « API Key pour la glace sur iOS). Cette clé API est l’identifiant de votre application.
 
-#### À quoi peut-il servir ?
+#### Pour quelle raison peut-il être utilisé ?
 
-Les identifiants d’application chez Braze sont utilisés lors de l’intégration du SDK et sont également utilisés pour référencer une application spécifique dans les appels d’API REST. Avec le , `app_id` vous pouvez faire de nombreuses choses comme extraire des données pour un événement personnalisé qui s’est produit pour une application particulière, récupérer des statistiques de désinstallation, des statistiques de nouvel utilisateur, des statistiques DAU et des statistiques de démarrage de session pour une application particulière.
+Les identifiants d’application à Braze sont utilisés lors de l’intégration du savoir-faire et sont également utilisés pour référence d’une application spécifique dans REST API appels. Avec le `app_id` vous pouvez faire beaucoup de choses comme récupérer des données pour un événement personnalisé qui s’est produit pour une application particulière, récupérer les statistiques noninstallées, les statistiques des utilisateurs nouvelles, les statistiques DAU et les statistiques de début de session pour une application particulière.
 
-Parfois, vous pouvez trouver que vous êtes invité à demander un `app_id` mais que vous ne travaillez pas avec une application, car il s’agit d’un champ hérité spécifique à une plateforme spécifique, vous pouvez « omettre » ce champ en incluant n’importe quelle chaîne de caractères comme espace réservé pour ce paramètre requis.
+Parfois, vous trouverez peut-être que vous êtes invité à obtenir une `app_id` application, mais vous ne travaillez pas avec une application, car il s’agit d’un champ existant spécifique à une plateforme spécifique, vous pouvez « ignorer » ce champ en incluant toute suite de caractères en tant que titulaire de place pour ce paramètre obligatoire.
 
-#### Clés API d’identifiant d’application multiples
+#### Clés API d’identification de l’application multiples
 
-Lors de la configuration du SDK, le cas d’utilisation le plus courant pour plusieurs clés API App Identifier est la séparation de ces clés pour les variantes de débogage et de version.
-Pour basculer facilement entre plusieurs clés API App Identifier dans vos builds, nous vous recommandons de créer un `braze.xml` fichier séparé pour chaque variantede [build pertinente][3]. Une variante de construction est une combinaison de type de construction et de saveur de produit. Notez que par défaut, un nouveau projet Android est configuré avec `debug` des types de `release` build et sans arômes de produit.
+Au cours de la configuration du KSD, le cas d’utilisation le plus courant pour plusieurs applications identifier API clés est de séparer ces clés pour le débogage et les variantes de construction.
+Pour passer facilement d’un identifiant d’application à plusieurs clés API dans vos builds, nous vous recommandons de créer un fichier distinct `braze.xml` pour chaque version[ de build.][3] Une variante de la build est une combinaison de type de build et de parfum de produit. Notez que par défaut, un nouveau projet Android est configuré avec `debug` et `release` construire des types et pas de saveurs de produit.
 
-Pour chaque variante de construction pertinente, créez-`braze.xml`en une nouvelle dans `src/<build variant name>/res/values/` :
+Pour chaque version de build pertinente, créez-en une nouvelle `braze.xml` pour `src/<build variant name>/res/values/`:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -47,116 +47,116 @@ Pour chaque variante de construction pertinente, créez-`braze.xml`en une nouvel
 <string name="com_braze_api_key">REPLACE_WITH_YOUR_BUILD_VARIANT_API_KEY</string>
 </resources>
 ```
-Lorsque la variante de création est compilée, elle utilise la nouvelle clé API.
+Lorsque la version de compilation est compilée, elle utilise la nouvelle clé API.
 
 {% endtab %}
 {% tab Template Ids %}
 
 ## Identifiant API du modèle
 
-Un identifiant API de [modèle]({{site.baseurl}}/api/endpoints/templates/) ou ID de modèle est une clé prête à l’emploi par Braze pour un modèle donné dans le tableau de bord. Les ID de modèle sont uniques pour chaque modèle et peuvent être utilisés pour référencer des modèles via l’API. 
+Un [modèle]({{site.baseurl}}/api/endpoints/templates/) API identifiant ou numéro de modèle est une clé hors du cadre par Braze pour un modèle donné dans le tableau de bord. Les identifiants de modèle sont propres à chaque modèle et peuvent être utilisés pour des modèles de référence via le API. 
 
-Les modèles sont parfaits si votre entreprise sous-traite vos conceptions HTML pour les campagnes. Une fois les modèles créés, vous disposez désormais d’un modèle qui n’est pas spécifique à une campagne, mais qui peut être appliqué à une série de campagnes comme une newsletter.
+Les modèles sont adaptés si votre entreprise contracte vos conceptions HTML pour des campagnes. Une fois les modèles créés, vous avez maintenant un modèle qui ne correspond pas à une campagne, mais qui peut être appliqué à une série de campagnes, comme par exemple un newsletter.
 
-#### Où puis-je le trouver ?
-Vous pouvez trouver votre ID de modèle de deux façons :
+#### Où puis-je la trouver ?
+Vous pouvez trouver votre identifiant de modèle de l’une des deux manières suivantes :
 
-1. Dans le tableau de bord, ouvrez **Modèles et médias** sous **Engagement** et sélectionnez un modèle préexistant. Si le modèle que vous souhaitez n’existe pas encore, créez-en un et enregistrez-le. En bas de la page du modèle individuel, vous pourrez trouver votre identifiant API de modèle.<br>
+1. Dans le tableau de bord, ouvrez **modèles et supports** sous **Engagement** et sélectionnez un modèle préexistant. Si le modèle que vous souhaitez n’existe pas encore, créez-en et enregistrez-le. En bas de la page de modèle individuel, vous pourrez trouver votre modèle API identifiant.<br>
 <br>
 
-2. Braze propose une recherche d’identifiants** API **supplémentaires, ici vous pouvez rapidement rechercher des identifiants spécifiques. Il se trouve en bas de l’onglet Paramètres **** API dans la page Console** du **développeur.
+2. Braze propose une **recherche d’identifiants** API supplémentaires. Vous pouvez y rechercher rapidement des identifiants spécifiques. Vous pouvez le trouver en bas de l’onglet **Paramètres** API de la **page Console** de développement.
 
-#### À quoi peut-il servir ?
+#### Pour quelle raison peut-il être utilisé ?
 
 - Mettre à jour les modèles sur API
-- Obtenir des informations sur un modèle spécifique
+- Saisissez des informations sur un modèle spécifique.
 
 <br>
 {% endtab %}
 {% tab Canvas IDs %}
 
-## Identifiant API Canvas
+## Identifiant API toile
 
-Un identifiant d’API [Canvas]({{site.baseurl}}/user_guide/engagement_tools/canvas/) ou un identifiant Canvas est une clé prête à l’emploi de Braze pour une toile donnée dans le tableau de bord. Les identifiants Canvas sont uniques à chaque toile et peuvent être utilisés pour référencer les toiles via l’API. 
+Un [toile]({{site.baseurl}}/user_guide/engagement_tools/canvas/) API identifiant ou identifiant de toile est une clé hors de la case par Braze pour un toile donné dans le tableau de bord. Les identifiants de toile sont uniques à chaque toile et peuvent être utilisés pour faire référence aux toiles à travers le API. 
 
-Notez que si vous avez un Canvas qui a des variantes, il existe un ID Canvas global ainsi que des ID Canvas variantes individuelles imbriqués sous le Canvas principal. 
+Notez que si vous avez un tableau comportant des variantes, il existe un numéro de toile global ainsi qu’un ID de toile variant individuel ident sous le tableau principal. 
 
-#### Où puis-je le trouver ?
-Vous pouvez trouver votre identifiant Canvas dans le tableau de bord. Ouvrez **Canvas** sous **Engagement** et sélectionnez un Canvas préexistant. Si la toile que vous souhaitez n’existe pas encore, créez-en une et enregistrez-la. Au bas d’une page Canvas individuelle, cliquez sur **Analyser les variantes**. Une fenêtre apparaît avec l’identifiant de l’API Canvas situé en bas.
+#### Où puis-je la trouver ?
+Vous pouvez trouver votre identifiant toile dans le tableau de bord. Ouvrez toile **** sous **Engagement** et sélectionnez un toile préexistante. Si le tableau que vous souhaitez obtenir n’existe pas encore, créez-en et enregistrez-le. En bas d’une page toile individuelle, cliquez sur **Analyser les** versions. Une fenêtre s’affiche avec l’identifiant API canvas situé en bas.
 
-#### À quoi peut-il servir ?
-- Suivre les analyses sur un message spécifique
-- Obtenez des statistiques agrégées de haut niveau sur les performances de Canvas
-- Saisir des détails sur une toile spécifique
-- Avec Currents pour apporter des données au niveau de l’utilisateur pour une approche « plus globale » des toiles
-- Avec livraison de déclencheur API afin de collecter des statistiques pour les messages transactionnels
+#### Pour quelle raison peut-il être utilisé ?
+- Suivre les analyses d’un message spécifique
+- Statistiques agrégées de haut niveau sur les performances sur toile
+- Saisissez des détails sur un toile spécifique.
+- Avec les courants afin de mettre en place des données au niveau de l’utilisateur pour une « plus grande image » approche des toiles
+- Une fois le API déclencher la livraison afin de collecter des statistiques sur les messages relatifs aux transactions
 
 <br>
 {% endtab %}
 {% tab Campaign IDs %}
 
-## Identifiant API de campagne
+## Identifiant API de la campagne
 
-Un identifiant API [de campagne]({{site.baseurl}}/user_guide/engagement_tools/campaigns/) ou ID de campagne est une clé prête à l’emploi par Braze pour une campagne donnée dans le tableau de bord. Les ID de campagne sont uniques à chaque campagne et peuvent être utilisés pour référencer des campagnes via l’API. 
+Une [campagne]({{site.baseurl}}/user_guide/engagement_tools/campaigns/) API identifiant ou identifiant de campagne est une clé hors du cadre par Braze pour une campagne donnée dans le tableau de bord. Les identifiants de campagne sont propres à chaque campagne et peuvent être utilisés pour les campagnes de référence par le biais du API. 
 
-Notez que si vous avez une campagne qui a des variantes, il y a à la fois un ID de campagne global ainsi que des ID de campagne de variante individuels imbriqués sous la campagne principale. 
+Notez que si vous avez une campagne comportant des variantes, il y a un numéro global de campagne ainsi que des identifiants de campagne variant individuels imbriqués sous la campagne principale. 
 
-#### Où puis-je le trouver ?
-Vous pouvez trouver votre ID de campagne de deux façons :
+#### Où puis-je la trouver ?
+Vous pouvez trouver l’identifiant de votre campagne de deux manières :
 
-1. Dans le tableau de bord, ouvrez **Campagnes** sous **Engagement** et sélectionnez une campagne préexistante. Si la campagne que vous souhaitez n’existe pas encore, créez-en une et enregistrez-la. En bas de la page de campagne individuelle, vous pourrez trouver votre identifiant API de **campagne**.<br>
+1. Dans le tableau de bord, ouvrez les **campagnes** sous **Engagement** et sélectionnez une campagne préexistante. Si la campagne que vous souhaitez n’existe pas encore, créez-en et enregistrez-la. En bas de la page de la campagne, vous pouvez trouver votre **identifiant API** campagne.<br>
 <br>
 
-2. Braze propose une recherche d’identifiants** API **supplémentaires, ici vous pouvez rapidement rechercher des identifiants spécifiques. Vous pouvez le trouver en bas de l’onglet Paramètres **** API dans la console **Developer**.
+2. Braze propose une **recherche d’identifiants** API supplémentaires. Vous pouvez y rechercher rapidement des identifiants spécifiques. Vous le trouverez en bas de l’onglet **Paramètres** API dans la console** de **développeurs.
 
-#### À quoi peut-il servir ?
-- Suivre les analyses sur un message spécifique
-- Obtenir des statistiques agrégées de haut niveau sur les performances de la campagne
-- Obtenir des détails sur une campagne spécifique
-- Avec Currents pour apporter des données au niveau de l’utilisateur pour une approche « plus globale » des campagnes
-- Avec livraison déclenchée par API afin de collecter des statistiques pour les messages transactionnels
-- Pour [rechercher une campagne]({{site.baseurl}}/user_guide/engagement_tools/campaigns/managing_campaigns/search_campaigns/#search-syntax) spécifique sur la page **Campagnes** à l’aide du filtre `api_id:YOUR_API_ID`
+#### Pour quelle raison peut-il être utilisé ?
+- Suivre les analyses d’un message spécifique
+- Obtenir des statistiques agrégées de haut niveau sur les performances des campagnes.
+- En savoir plus sur une campagne spécifique
+- Avec les courants afin de fournir des données au niveau de l’utilisateur pour une approche « plus globale » des campagnes
+- Une livraison avec API déclenché pour collecter des statistiques sur les messages relatifs aux transactions
+- Pour [rechercher une campagne]({{site.baseurl}}/user_guide/engagement_tools/campaigns/managing_campaigns/search_campaigns/#search-syntax) spécifique sur la page Campagnes** à l’aide **du filtre`api_id:YOUR_API_ID`
 
 <br>
 {% endtab %}
 {% tab Segment IDs %}
 
-## Identifiant API du segment
+## Segmenter l’identifiant API
 
-Un identifiant API [de segment]({{site.baseurl}}/user_guide/engagement_tools/segments/) ou ID de segment est une clé prête à l’emploi par Braze pour un segment donné dans le tableau de bord. Les ID de segment sont uniques à chaque segment et peuvent être utilisés pour référencer des segments via l’API. 
+Un [identifiant API]({{site.baseurl}}/user_guide/engagement_tools/segments/) segment ou un identifiant de segment est une clé hors du cadre par Braze pour un segment donné dans le tableau de bord. Les identifiants de segment sont propres à chaque segment et peuvent être utilisés pour des segments de référence à travers le API. 
 
-#### Où puis-je le trouver ?
-Vous pouvez trouver votre ID de segment de deux manières :
+#### Où puis-je la trouver ?
+Vous pouvez trouver votre identifiant de segment de l’une des deux façons suivantes :
 
-1. Dans le tableau de bord, ouvrez **Segments** sous **Engagement** et sélectionnez un segment préexistant. Si le segment que vous souhaitez n’existe pas encore, créez-en un et enregistrez-le. En bas de la page de segment individuel, vous pourrez trouver votre identifiant API de segment. <br>
+1. Dans le tableau de bord, ouvrez **les segments** sous **Engagement** et sélectionnez un segment préexistant. Si le segment que vous souhaitez n’existe pas encore, créez-en un et enregistrez-le. En bas de la page segment, vous pourrez trouver votre identifiant de segment API. <br>
 <br>
 
-2. Braze propose une recherche d’identifiants** API **supplémentaires, ici vous pouvez rapidement rechercher des identifiants spécifiques. Il se trouve en bas de l’onglet Paramètres **** API dans la page Console** du **développeur.
+2. Braze propose une **recherche d’identifiants** API supplémentaires. Vous pouvez y rechercher rapidement des identifiants spécifiques. Vous pouvez le trouver en bas de l’onglet **Paramètres** API de la **page Console** de développement.
 
-#### À quoi peut-il servir ?
-- Obtenir des détails sur un segment spécifique
-- Récupérer l’analyse d’un segment spécifique
-- Calculer le nombre de fois qu’un événement personnalisé a été enregistré pour un segment particulier
-- Spécifier et envoyer une campagne à un membre d’un segment à partir de l’API
+#### Pour quelle raison peut-il être utilisé ?
+- Obtenez des informations sur un segment spécifique.
+- Récupérer des analyses d’un segment spécifique.
+- Tirez le nombre de fois qu’un événement personnalisé a été enregistré pour un segment particulier.
+- Indiquez et envoyez une campagne à des membres d’un segment dans la API
 
 {% endtab %}
 {% tab Card IDs %}
 
 ## Identifiant API de carte
 
-Un identifiant d’API de carte ou ID de carte est une clé prête à l’emploi par Braze pour une carte de fil d’actualité donnée dans le tableau de bord. Les ID de carte sont uniques à chaque carte de fil d[’]({{site.baseurl}}/user_guide/engagement_tools/news_feed/)actualité et peuvent être utilisés pour référencer les cartes via l’API. 
+Une carte API un identifiant ou une pièce d’identité de carte est une clé hors du cadre par Braze pour un flux d’actualités donné dans le tableau de bord. Les identifiants de carte sont propres à chaque []({{site.baseurl}}/user_guide/engagement_tools/news_feed/) Carte Actualités et peuvent être utilisés pour référence des Cartes via la API. 
 
-#### Où puis-je le trouver ?
-Vous pouvez trouver votre ID de carte de l’une des deux manières suivantes :
+#### Où puis-je la trouver ?
+Vous pouvez trouver votre Identifiant de carte de l’une des deux façons suivantes :
 
-1. Dans le tableau de bord, ouvrez le fil d**’**actualité sous **Engagement** et sélectionnez un fil d’actualité préexistant. Si le fil d’actualité que vous souhaitez n’existe pas encore, créez-en un et enregistrez-le. En bas de la page du fil d’actualités individuel, vous pourrez trouver votre identifiant API de carte unique. <br>
+1. Dans le tableau de bord, ouvrez le flux **d’actualités** sous **Engagement** et sélectionnez un fil d’actualités préexistant. Si le flux d’actualités que vous souhaitez n’existe pas encore, créez-en un et enregistrez-le. En bas de la page d’actualités de chaque page, vous pourrez trouver votre carte unique API identifiant. <br>
 <br>
 
-2. Braze propose une recherche d’identifiants** API **supplémentaires, ici vous pouvez rapidement rechercher des identifiants spécifiques. Il se trouve en bas de l’onglet Paramètres **** API dans la page Console** du **développeur.
+2. Braze propose une **recherche d’identifiants** API supplémentaires. Vous pouvez y rechercher rapidement des identifiants spécifiques. Vous pouvez le trouver en bas de l’onglet **Paramètres** API de la **page Console** de développement.
 
-#### À quoi peut-il servir ?
+#### Pour quelle raison peut-il être utilisé ?
 - Récupérer les informations pertinentes sur une carte
-- Suivre les événements liés aux cartes de contenu et à l’engagement
+- Suivre les événements liés aux Cartes de contenu et aux engagements
 
 <br>
 {% endtab %}
@@ -164,13 +164,13 @@ Vous pouvez trouver votre ID de carte de l’une des deux manières suivantes :
 
 ## Envoyer l’identifiant
 
-Un identifiant d’envoi ou ID d’envoi est une clé générée par Braze ou créée par vous pour un message donné envoyé sous lequel les analyses doivent être suivies. L’identifiant d’envoi vous permet de récupérer les analyses pour une instance spécifique d’un envoi de campagne via le [`sends/data_series`]({{site.baseurl}}/api/endpoints/export/campaigns/get_send_analytics/) point de terminaison.
+Un identifiant d’envoi ou d’envoi est une clé générée par Braze ou créée par vous pour envoyer un message dans le cadre duquel les analyses doivent être suivies. L’identifiant d’envoi vous permet de récupérer des analyses dans un exemple spécifique d’envoi de campagne via le point d’extrémité [`sends/data_series`]({{site.baseurl}}/api/endpoints/export/campaigns/get_send_analytics/) .
 
-#### Où puis-je le trouver ?
+#### Où puis-je la trouver ?
 
-L’API et les campagnes de déclenchement d’API envoyées en tant que diffusion généreront automatiquement un identifiant d’envoi si aucun identifiant d’envoi n’est fourni. Si vous souhaitez spécifier votre propre identifiant d’envoi, vous devrez d’abord en créer un via le [`sends/id/create`]({{site.baseurl}}/api/endpoints/messaging/send_messages/post_create_send_ids/) endpoint. L’identifiant doit comporter tous les caractères ASCII et ne pas dépasser 64 caractères. Vous pouvez réutiliser un identifiant d’envoi pour plusieurs envois d’une même campagne si vous souhaitez regrouper les analyses de ces envois.
+API et API déclenchent des campagnes qui sont envoyées lors d’une émission génèreront automatiquement un identifiant d’envoi si un identifiant d’envoi n’est pas fourni. Si vous souhaitez spécifier votre propre identifiant d’envoi, vous devez d’abord en créer un via le point d’extrémité [`sends/id/create`]({{site.baseurl}}/api/endpoints/messaging/send_messages/post_create_send_ids/) . L’identifiant doit être composé de tous les caractères ASCII et au plus 64 caractères. Si vous souhaitez regrouper ces envois, vous pouvez réutiliser un identifiant d’envoi pour plusieurs envois de la même campagne.
 
-#### À quoi peut-il servir ?
+#### Pour quelle raison peut-il être utilisé ?
 Envoyez et suivez les performances des messages par programme, sans création de campagne pour chaque envoi.
 
 <br>

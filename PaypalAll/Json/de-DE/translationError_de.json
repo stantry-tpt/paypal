@@ -1,8 +1,8 @@
 {
   "en": {
-    "title": "Fehler beim Laden der Aktualisierung der Übersetzungen update_time zone",
+    "title": "Übersetzungen update_time Bereichsaktualisierung konnten nicht geladen werden",
     "title2": "neue PR geschlossen",
-    "body": "Die Übersetzungen konnten für dieses Gebietsschema nicht geladen werden. Bitte wenden Sie sich an Ihren Blue Prism Administrator."
+    "body": "Die Übersetzungen konnten für diesen Gebietsschema nicht geladen werden. Bitte wenden Sie sich an Ihren blauer Verwaltungsverwalter."
   },
   "fr": {
     "title": "",

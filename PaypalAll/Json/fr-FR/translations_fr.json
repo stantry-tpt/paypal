@@ -1,21 +1,21 @@
 {
     "glossary": {
-        "title": "exemple de démonstration du glossaire",
+        "title": "exemple de DÉMO glossaire",
 		"GlossDiv": {
             "title": "S",
 			"GlossList": {
                 "GlossEntry": {
                     "ID": "SGML",
 					"SortAs": "SGML",
-					"GlossTerm": "contenu mis à jour pour la mise à jour du commentaire de la demande d’extraction_nombre de jours",
-					"Acronym": "commentaire git pr",
-					"Abbrev": "ISO 8879 :1986",
+					"GlossTerm": "contenu mis à jour pour mise à jour de la demande de récupération comment_number de jours",
+					"Acronym": "git comment pr",
+					"Abbrev": "ISO 8879:1986",
 					"SortAs": "SGML",
 					"GlossDef": {
-                        "para": "Un langage de méta-marquage, utilisé pour créer des langages de balisage tels que DocBook newbook TEST.",
+                        "para": "Une langue méta-markup, utilisée pour créer des langues de mark-up telles que DocBook newbook TEST.",
 						"GlossSeeAlso": ["GML", "XML"]
                     },
-					"GlossSee": "balisage"
+					"GlossSee": "Balisage"
                 }
             }
         }

@@ -1,8 +1,8 @@
 {
   "en": {
-    "title": "Impossible de charger la mise à jour du fuseau horaire update_time traductions",
-    "title2": "nouvelle DA clôturée",
-    "body": "Les traductions n’ont pas pu être chargées pour ce paramètre régional. Veuillez contacter votre administrateur Blue Prism."
+    "title": "Échec du chargement des traductions update_time mise à jour de la zone",
+    "title2": "nouveau règlement sur les relations publiques fermé",
+    "body": "Les traductions n’ont pas pu être chargées pour cet emplacement. Contactez votre administrateur Prism bleu."
   },
   "fr": {
     "title": "",

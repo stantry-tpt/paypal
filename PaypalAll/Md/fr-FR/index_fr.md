@@ -7,46 +7,46 @@ hidden: true
 layout: doc_guide
 custom_collection: home
 nav_title: "Documentation"
-description: "Il s’agit de la page d’accueil du site de documentation Braze. Vous trouverez ici des liens vers le guide de l’utilisateur, le guide du développeur, le guide API, la documentation des partenaires technologiques et des articles d’aide. Vous trouverez également des liens rapides vers des liens utiles et des articles populaires."
+description: "Il s’agit de la page d’accueil du site de documentation braze. Vous trouverez ici des liens vers le guide d’utilisateur, le guide des développeurs, API un guide, la documentation relative aux partenaires technologiques et des articles d’aide. Vous pouvez également trouver des liens rapides vers des liens utiles et des articles populaires."
 
-doc_top_header: "Documentation sur le brasage"
-doc_top_text: "Retrouvez-nous à l’intersection de l’art et de la science. Retrouvez-nous sur le moment, ou des années-lumière à venir.
-À votre arrivée, attendez-vous à ce que le cycle de vie soit le meilleur.
-Chez Braze, nous visons à créer des liens solides entre vous et vos clients ou utilisateurs."
+doc_top_header: "Documentation braza"
+doc_top_text: "Rencontrez-nous à l’intersection de l’art et de la science. Trouvez-nous dans l’instant ou des années-lumière à venir.
+À son arrivée, l’engagement de cycle de vie à son meilleur.
+Chez Braze, nous avons pour objectif de créer des liens forts entre vous et vos clients ou vos utilisateurs."
 
 doc_menu_list:
-  - name: Guide de l’utilisateur
+  - name: Guide d’utilisation
     bg_color: '#3accdd'
     image: /assets/img/new-icons/users.svg
     link: /docs/user_guide/introduction/
-    description: "Apprenez à utiliser la plateforme Braze pour favoriser une expérience client plus percutante."
-  - name: Guide du développeur
+    description: "Découvrez comment utiliser la plateforme Braze pour créer une expérience client plus impactée."
+  - name: Guide des développeurs
     bg_color: '#f7918e'
     image: /assets/img/new-icons/html-file.svg
     link: /docs/developer_guide/home/
-    description: "Intégrez et activez votre application ou votre site avec le SDK Braze."
+    description: "Intégrez et activez votre application ou site avec leK de développement Braze."
   - name: Partenaires technologiques
     bg_color: '#ff9349'
     image: /assets/img/new-icons/gears.svg
     link: /docs/partners/home/
-    description: "Nos partenaires technologiques peuvent vous aider à personnaliser votre expérience Braze et vos relations avec les clients."
-  - name: Guide API
+    description: "Nos partenaires technologiques peuvent vous aider à personnaliser votre expérience Braze et vos relations avec vos clients."
+  - name: API Guide
     bg_color: '#ff9349'
     image: /assets/img/new-icons/api.svg
     link: /docs/api/home/
-    description: "Braze fournit une API REST haute performance pour vous permettre de suivre les utilisateurs, d’envoyer des messages, d’exporter des données, etc."
+    description: "Braze fournit une REST API de haute performance vous permettant de suivre les utilisateurs, d’envoyer des messages, d’exporter des données et plus encore."
 
 popular_topic_list:
-  - name: "Toile : Les bases"
+  - name: "Toile: Informations de base"
     link: /docs/user_guide/engagement_tools/canvas/get_started/the_basics/
 
   - name: Créer une campagne
     link: /docs/user_guide/engagement_tools/campaigns/ideas_and_strategies/active_user_campaigns/
-  - name: Emplacements et barrières géographiques
+  - name: Emplacements et géofences
     link: /docs/user_guide/engagement_tools/locations_and_geofences/
-  - name: Messagerie personnalisée
+  - name: Messages personnalisés
     link: /docs/user_guide/personalization_and_dynamic_content/overview/
-  - name: API REST Braze
+  - name: Braze REST API
     link: /docs/developer_guide/rest_api/basics/
   - name: Attributs personnalisés
     link: /docs/user_guide/data_and_analytics/custom_data/custom_attributes/
@@ -56,13 +56,13 @@ popular_topic_list:
     link: /docs/user_guide/engagement_tools/segments/creating_a_segment/
 
 helpful_resources_list:
-  - name: Portail des développeurs Braze
+  - name: Portail des développeurs de Braze
     link: https://developer.braze.com
-  - name: Déclaration d’innovation
+  - name: Politique d’innovation
     link: /docs/innovation_statement/
-  - name: Manuel des services d’assistance et de réussite
+  - name: Manuel d’assistance et de réussite
     link: /docs/handbooks/
-  - name: Assistance technique pour la protection des données
+  - name: Assistance technique en matière de protection des données
     link: /docs/dp-technical-assistance/
 ---
 
