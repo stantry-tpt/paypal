@@ -1,0 +1,27 @@
+{
+  "en": {
+    "title": "Failed to load translations update_time zone update",
+    "title2": "new PR closed",
+    "body": "The translations could not be loaded for this locale. Please contact your Blue Prism administrator- f20"
+  },
+  "fr": {
+    "title": "",
+    "body": ""
+  },
+  "de": {
+    "title": "",
+    "body": ""
+  },
+  "es": {
+    "title": "",
+    "body": ""
+  },
+  "ja": {
+    "title": "",
+    "body": ""
+  },
+  "zh": {
+    "title": "",
+    "body": ""
+  }
+}
