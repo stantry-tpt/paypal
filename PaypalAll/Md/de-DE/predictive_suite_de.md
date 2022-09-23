@@ -1,19 +1,19 @@
 ---
-nav_title: Vorausschauende Suite
-article_title: Vorausschauende Suite
+nav_title: Vorhersage-Suite
+article_title: Vorhersage-Suite
 page_order: 6.4
 layout: featured
 
-guide_top_header: "Vorausschauende Suite"
-guide_top_text: "Die Braze Predictive Suite gibt Vermarktern Tools für maschinelles Lernen an die Hand, sodass sie Daten nahtlos innerhalb der Braze-Plattform nutzen und darauf reagieren können. Als erste Funktion, die in der Predictive Suite veröffentlicht wird, ermöglicht Predictive Churn Marketingfachleuten die Definition und Erstellung von Vorhersagen und bietet einen proaktiven Ansatz zur Minimierung zukünftiger Abwanderungen. Erfahren Sie mehr über die Funktionen in den folgenden Artikeln!"
-description: "Diese Landingpage ist ein Ort für all diese Vorhersagen bei Braze! Die Predictive Suite von Braze bietet Lösungen für die Abwanderungs- und Kaufprognose in deinen Braze-Kampagnen und Canvases."
+guide_top_header: "Vorhersage-Suite"
+guide_top_text: "Die Braze Vorhersage suite bringt Maschinelles Lernen in die Hände von Marketern, damit diese daten nahtlos innerhalb der Braze-Plattform effizient einsetzen und handeln können. Als erste Funktion in der Vorhersage suite veröffentlicht wird, ermöglicht Vorhersageabwanderungen die Definition und Generierung von Vorhersagen, wobei ein proaktiver Ansatz hinsichtlich einer künftigen Abwanderung minimiert werden kann. Erfahren Sie mehr über die Funktionen, indem Sie die folgenden Artikel besuchen!"
+description: "Diese Landing Page ist ein Ort für all diese Vorhersage bei Braze! Die Vorhersage suite von Braze bietet Lösungen für Abwanderung und Vorhersage von Einkäufen in Ihren Braze-Kampagnen und Arbeitsbereichen."
 
-guide_featured_title: "Merkmale"
+guide_featured_title: "Funktionen"
 guide_featured_list:
-- name: Prädiktive Abwanderung
+- name: Vorhersage-Abwanderung
   link: /docs/user_guide/predictive_suite/predictive_churn/
   fa_icon: fas fa-cogs
-- name: Vorausschauende Käufe
+- name: Vorhersage für Käufe
   link: /docs/user_guide/predictive_suite/predictive_purchases/
   fa_icon: fas fa-cogs
 ---

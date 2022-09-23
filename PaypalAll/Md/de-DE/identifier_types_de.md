@@ -1,45 +1,45 @@
 ---
-nav_title: "API-Kennungstypen"
-article_title: API-Kennungstypen
+nav_title: "API Kennungstypen"
+article_title: API Kennungstypen
 page_order: 2.2
-description: "Dieser Referenzartikel behandelt die verschiedenen Arten von API-Identifikatoren, die im Braze-Dashboard vorhanden sind, wo Sie sie finden und wofür sie verwendet werden." 
+description: "Dieser Verweisartikel umfasst die verschiedenen Arten von API Kennungen, die in der Braze-Übersicht vorhanden sind, wo Sie sie finden und was sie verwendet werden." 
 page_type: reference
 
 ---
 
-# API-Kennungstypen
+# API Identifier-Typen
 
-> Dieses Referenzhandbuch behandelt die verschiedenen Arten von API-Identifikatoren, die im Braze-Dashboard zu finden sind, ihren Zweck, wo Sie sie finden können und wie sie typischerweise verwendet werden. Informationen zu REST-API-Schlüsseln oder App-Gruppen-API-Schlüsseln finden Sie in der Übersicht über den [Rest-API-Schlüssel]({{site.baseurl}}/api/api_key/)
+> Diese Referenzleitfaden berühren die verschiedenen Arten von API Identifiers, die im Braze-Dashboard, ihrem Zweck, wo Sie sie finden und wie sie typischerweise verwendet werden. Informationen zu REST API Keys oder App-Gruppe API Keys finden Sie in der [API Key-Übersicht]({{site.baseurl}}/api/api_key/)
 
-Die folgenden API-Kennungen können verwendet werden, um über die externe API von Braze auf Ihre Vorlage, Leinwand, Kampagne, Segment, Versand oder Karte zuzugreifen. Alle Nachrichten sollten der [UTF-8][1]-Codierung folgen.
+Die folgenden API Identifier können verwendet werden, um auf Ihre Vorlage, das Arbeitsbereich, das Kampagnen-, Segment, das Senden oder die Karte von der externen API von Braze zuzugreifen. Alle Nachrichten müssen der UTF-8-Codierung[ folgen][1].
 
 {% tabs %}
 {% tab App Ids %}
 
-## Der API-Schlüssel der App-ID
+## Der App-Identifier API Key
 
-Der API-Schlüssel der App-Kennung oder `app_id` ist ein Parameter, der eine Aktivität mit einer bestimmten App in Ihrer App-Gruppe verknüpft. Sie gibt an, mit welcher App innerhalb der App-Gruppe Sie interagieren. Sie werden beispielsweise feststellen, dass Sie einen `app_id` für Ihre iOS-App, einen `app_id` für Ihre Android-App und einen `app_id` für Ihre Webintegration haben werden. Bei Braze stellen Sie möglicherweise fest, dass Sie mehrere Apps für dieselbe Plattform über die verschiedenen Plattformtypen hinweg haben, die Braze unterstützt.
+Der App Identifier API Schlüssel oder `app_id` ist ein Parameter, der Die Aktivität mit einer bestimmten App in Ihrer App-Gruppe zuordnen soll. Es ist eine Bezeichnung, mit der App in der App Gruppe angezeigt wird, mit der Sie interagieren. Beispielsweise wird festgestellt, dass Sie für `app_id` Ihre iOS-App, eine `app_id` für Ihre Android-App und eine `app_id` für Ihre Web-Integration haben. Bei Braze finden Sie möglicherweise, dass Sie mehrere Apps für dieselbe Plattform in den verschiedenen Plattformtypen haben, die Braze unterstützt.
 
 #### Wo finde ich sie?
 
-Es gibt zwei Möglichkeiten, Ihren zu finden`app_id`:
+Es gibt zwei Möglichkeiten, Ihre `app_id`:
 
-1. Diese `app_id` oder Anwendungskennung finden Sie in der **Developer Console** unter **Einstellungen**. Auf dieser neuen Seite können Sie unter **Identifikation alle sehen**, `app_id` die für Ihre Apps vorhanden sind.
+1. Sie können diese `app_id` oder den Anwendungskennung in den Einstellungen** für **Entwicklerkonsolen** **finden. Auf dieser neuen Seite unter " **Identifikation**" können Sie sehen `app_id` , was für Ihre Apps vorhanden ist.
 
-2. Gehen Sie unter **Einstellungen zu Einstellungen **** verwalten**. Auf dieser neuen Seite finden Sie auf der Registerkarte **Einstellungen** in der Mitte der Seite einen „API-Schlüssel für **APP-NAME** auf **PLATTFORM**“ (z. B. „API-Schlüssel für Eiscreme auf iOS). Dieser API-Schlüssel ist Ihre Anwendungskennung.
+2. Gehen Sie zu "**Einstellungen ******verwalten". **Auf der Seite unter "Einstellungen" finden Sie auf der Seite unter "Einstellungen**" einen "API Key für **APP NAME** auf **PLATTFORM**" (z.B. "API Schlüssel für Die Eiscreme auf iOS"). Dieser API Key ist Ihr Application Identifier.
 
 #### Wofür kann es verwendet werden?
 
-App-Kennungen bei Braze werden bei der Integration des SDK verwendet und werden auch verwendet, um auf eine bestimmte App in REST-API-Aufrufen zu verweisen. Mit können `app_id` Sie viele Dinge tun, wie z. B. Daten für ein benutzerdefiniertes Ereignis abrufen, das für eine bestimmte App aufgetreten ist, Deinstallationsstatistiken, neue Benutzerstatistiken, DAU-Statistiken und Sitzungsstartstatistiken für eine bestimmte App abrufen.
+App-Identifier an Braze werden bei der Integration des SDK verwendet und werden auch verwendet, um in REST API Aufrufen einen bestimmten App zu referenzieren. Mit den `app_id` vielen Dingen wie Pull Data für ein benutzerdefiniertes Ereignis, das für ein bestimmtes App aufgetreten ist, rufen Sie de uninstall Stats, neue User Stats, DAU Stats und Session starte stats für eine bestimmte App.
 
-Manchmal werden Sie möglicherweise zur Eingabe eines aufgefordert, `app_id` aber Sie arbeiten nicht mit einer App. Da es sich um ein Legacy-Feld handelt, das für eine bestimmte Plattform spezifisch ist, können Sie dieses Feld „auslassen“, indem Sie eine beliebige Zeichenfolge als Platzhalter für diesen erforderlichen Parameter einfügen.
+Manchmal finden Sie, dass Sie nach einem `app_id` bestimmten Feld gefragt werden, aber Sie nicht mit einem App arbeiten, da es sich um ein legacy-spezifisch für eine bestimmte Plattform bezieht, können Sie dieses Feld "auslassen", indem Sie eine Zeichenfolge für diesen erforderlichen Parameter angeben.
 
-#### Mehrere API-Schlüssel für die App-Kennung
+#### Mehrere App-Identifier API Keys
 
-Während der SDK-Einrichtung besteht der häufigste Anwendungsfall für mehrere App Identifier API-Schlüssel darin, diese Schlüssel für Debug- und Release-Build-Varianten zu trennen.
-Um einfach zwischen mehreren App Identifier API-Schlüsseln in deinen Builds zu wechseln, empfehlen wir, für jede relevante `braze.xml`Build-Variante eine separate [ Datei zu erstellen][3]. Eine Build-Variante ist eine Kombination aus Build-Typ und Produktgeschmack. Beachten Sie, dass standardmäßig ein neues Android-Projekt mit konfiguriert ist `debug` und Typen und keine Produktaromen `release` erstellt.
+Beim SDK-Einrichtung werden die häufigsten Verwendungsfall für mehrere App Identifier-API Keys getrennt mit diesen Keys für Debug und Release-Build-Varianten.
+Um einfach zwischen mehreren App Identifier-API Keys in Ihren Builds zu wechseln, empfehlen wir, eine separate `braze.xml` Datei für jede relevante [Build-Variante][3] zu erstellen. Eine Build-Variante ist eine Kombination aus Build-Typ und Produktgeschmack. Beachten Sie, dass ein neues Android-Projekt standardmäßig mit `debug` und ohne Produktgeschmack konfiguriert und `release` erstellt wird.
 
-Erstellen Sie für jede relevante Build-Variante eine neue `braze.xml` in `src/<build variant name>/res/values/`:
+Erstellen Sie für jede relevante Build-Variante ein neues `braze.xml` in `src/<build variant name>/res/values/`:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -47,116 +47,116 @@ Erstellen Sie für jede relevante Build-Variante eine neue `braze.xml` in `src/<
 <string name="com_braze_api_key">REPLACE_WITH_YOUR_BUILD_VARIANT_API_KEY</string>
 </resources>
 ```
-Wenn die Build-Variante kompiliert ist, verwendet sie den neuen API-Schlüssel.
+Wenn die Build-Variante zusammengestellt wird, wird der neue API Schlüssel verwendet.
 
 {% endtab %}
 {% tab Template Ids %}
 
-## Vorlagen-API-Kennung
+## Template API Identifier
 
-Eine [Vorlagen]({{site.baseurl}}/api/endpoints/templates/)-API-Kennung oder Vorlagen-ID ist ein sofort einsatzbereiter Schlüssel von Braze für eine bestimmte Vorlage im Dashboard. Vorlagen-IDs sind für jede Vorlage eindeutig und können verwendet werden, um Vorlagen über die API zu referenzieren. 
+Eine [Vorlage]({{site.baseurl}}/api/endpoints/templates/) API Identifier oder Template ID ist ein out-of-the-box Key von Braze für eine angegebene Vorlage im Dashboard. Die Vorlagen-IDs sind für jede Vorlage eindeutig und können über die API verwendet werden, um Vorlagen zu referenzieren. 
 
-Vorlagen eignen sich hervorragend, wenn dein Unternehmen deine HTML-Designs für Kampagnen ausgibt. Sobald die Vorlagen erstellt wurden, hast du jetzt eine Vorlage, die nicht spezifisch für eine Kampagne ist, sondern auf eine Reihe von Kampagnen wie einen Newsletter angewendet werden kann.
+Vorlagen sind großartig, wenn Sich Ihre Firmenverträge mit Ihren HTML-Designs für Kampagnen erstellen. Sobald die Vorlagen erstellt wurden, verfügen Sie jetzt über eine Vorlage, die nicht speziell für eine Kampagne ist, aber für eine Reihe von Kampagnen wie einem Newsletter übernommen werden kann.
 
 #### Wo finde ich sie?
-Sie können Ihre Vorlagen-ID auf zwei Arten finden:
+Ihre Template-ID finden Sie eine von zwei Arten:
 
-1. Öffnen Sie im Dashboard **Vorlagen und Medien** unter **Engagement** und wählen Sie eine bereits vorhandene Vorlage aus. Wenn die gewünschte Vorlage noch nicht existiert, erstellen Sie eine und speichern Sie sie. Unten auf der einzelnen Vorlagenseite finden Sie Ihre Vorlagen-API-Kennung.<br>
+1. Öffnen Sie **im Dashboard Vorlagen & Medien** unter **Engagement** und wählen Sie eine bereits vorhandene Vorlage aus. Wenn die gewünschte Vorlage noch nicht vorhanden ist, erstellen Sie eine und speichern Sie sie. Unten auf der Seite "Vorlage" können Sie Ihre Vorlage API Identifier finden.<br>
 <br>
 
-2. Braze bietet eine Suche nach **zusätzlichen API-Identifikatoren** an. Hier können Sie schnell nach bestimmten Kennungen suchen. Sie finden sie unten auf der Registerkarte **API-Einstellungen** auf der Seite **Developer Console**.
+2. Braze bietet eine **zusätzliche API Suche nach Kennungen, hier können Sie schnell nach bestimmten Kennungen** suchen. Sie finden sie unten auf der **Registerkarte API Einstellungen** in der **Developer Konsole** .
 
 #### Wofür kann es verwendet werden?
 
 - Vorlagen über API aktualisieren
-- Informationen auf einer bestimmten Vorlage erfassen
+- Grabinformationen zu einer bestimmten Vorlage
 
 <br>
 {% endtab %}
 {% tab Canvas IDs %}
 
-## Canvas-API-Kennung
+## Arbeitsbereich API-Kennung
 
-Eine [Canvas]({{site.baseurl}}/user_guide/engagement_tools/canvas/)-API-Kennung oder Canvas-ID ist ein sofort einsatzbereiter Schlüssel von Braze für einen bestimmten Canvas innerhalb des Dashboards. Canvas-IDs sind für jeden Canvas eindeutig und können verwendet werden, um Canvass über die API zu referenzieren. 
+Ein [Arbeitsbereich]({{site.baseurl}}/user_guide/engagement_tools/canvas/) API "Identifier" oder "Canvas-ID" ist ein out-of-the-box-Schlüssel von Braze für ein gegebenes Arbeitsbereich in der Übersicht. In dem Canvas-IDs sind jeweils ein Arbeitsbereich angegeben und können mithilfe des API verwendet werden, um Arbeitsbereiche zu referenzieren. 
 
-Wenn Sie einen Canvas mit Varianten haben, gibt es eine Canvas-ID insgesamt sowie einzelne Canvas-IDs, die unter dem Haupt-Canvas verschachtelt sind. 
+Beachten Sie, dass, wenn sie ein Arbeitsbereich mit Varianten haben, es eine gesamtbildliche Arbeitsbereich-ID sowie eine einzelne Variante des Canvas-IDs gibt. 
 
 #### Wo finde ich sie?
-Sie finden Ihre Canvas-ID im Dashboard. Öffnen Sie **Canvas** unter **Engagement** und wählen Sie eine bereits vorhandene Leinwand aus. Wenn die gewünschte Leinwand noch nicht vorhanden ist, erstellen Sie eine und speichern Sie sie. Klicken Sie unten auf einer einzelnen Canvas-Seite auf Varianten **analysieren**. Es erscheint ein Fenster mit der Canvas API Identifier unten.
+In der Übersicht finden Sie Ihre Canvas-ID. **Öffnen Sie das Arbeitsbereich** unter **"Engagement**" und wählen Sie ein bereits vorhandenes Arbeitsbereich aus. Wenn das Arbeitsbereich noch nicht vorhanden ist, erstellen Sie eines und speichern Sie es. Klicken Sie unten auf einer einzelnen Arbeitsbereichsseite auf " **Varianten analysieren"**. Ein Fenster erscheint mit dem Arbeitsbereich API Identifier unten.
 
 #### Wofür kann es verwendet werden?
-- Analysen einer bestimmten Nachricht verfolgen
-- Holen Sie sich hochrangige aggregierte Statistiken auf Canvas-Performance
-- Greifen Sie Details auf einem bestimmten Canvas
-- Mit Currents, um Daten auf Benutzerebene für einen „größeren Bild“-Ansatz für Leinwände einzubringen
-- Mit API-Trigger-Zustellung, um Statistiken für Transaktionsnachrichten zu sammeln
+- Analyse zu einer bestimmten Nachricht nachverfolgen
+- Grabe Gesamtstatistiken auf dem Canvas
+- Grabdetails in einem bestimmten Arbeitsbereich
+- Mit Aktuellen, um Benutzer-Level-Daten für einen "größeren Bild"-Ansatz in das Arbeitsbereich zu bringen
+- Mit API Zustellung auslösen, um Statistiken zu Transaktionsnachrichten zu erfassen
 
 <br>
 {% endtab %}
 {% tab Campaign IDs %}
 
-## Kampagnen-API-Kennung
+## Kampagnen API-Kennung
 
-Eine [Kampagnen]({{site.baseurl}}/user_guide/engagement_tools/campaigns/)-API-Kennung oder Kampagnen-ID ist ein sofort einsatzbereiter Schlüssel von Braze für eine bestimmte Kampagne im Dashboard. Kampagnen-IDs sind für jede Kampagne eindeutig und können verwendet werden, um über die API auf Kampagnen zu verweisen. 
+Eine [Kampagne]({{site.baseurl}}/user_guide/engagement_tools/campaigns/) API Identifier oder Kampagnen-ID ist ein out-of-box Key von Braze für eine bestimmte Kampagne im Dashboard. Kampagnen-IDs sind für jede Kampagne eindeutig und können über die API zu Referenzkampagnen verwendet werden. 
 
-Beachten Sie, dass bei einer Kampagne mit Varianten sowohl eine Gesamtkampagnen-ID als auch einzelne Kampagnen-IDs für Varianten unter der Hauptkampagne verschachtelt sind. 
+Beachten Sie, dass bei einer Kampagne, die Varianten hat, sowohl eine Gesamt-ID als auch eine einzelne Variante der Kampagnen-IDs im Rahmen der Hauptkampagne vorhanden ist. 
 
 #### Wo finde ich sie?
-Sie können Ihre Kampagnen-ID auf zwei Arten finden:
+Ihre Kampagnen-ID finden Sie eine von zwei Arten:
 
-1. Öffnen Sie im Dashboard **Kampagnen** unter **Engagement** und wählen Sie eine bereits vorhandene Kampagne aus. Wenn die gewünschte Kampagne noch nicht existiert, erstellen Sie eine und speichern Sie sie. Unten auf der Seite der einzelnen Kampagnen finden Sie Ihre **Kampagnen-API-Kennung**.<br>
+1. Öffnen Sie **im Dashboard unter** **"Engagement** " Kampagnen und wählen Sie eine bereits vorhandene Kampagne aus. Wenn die Kampagne noch nicht vorhanden ist, erstellen Sie eine und speichern Sie ihn. Unten auf der einzelnen Kampagnenseite können Sie Ihre **Kampagne API Identifier** finden.<br>
 <br>
 
-2. Braze bietet eine Suche nach **zusätzlichen API-Identifikatoren** an. Hier können Sie schnell nach bestimmten Kennungen suchen. Diese finden Sie unten auf der Registerkarte **API-Einstellungen** in der **Developer Console**.
+2. Braze bietet eine **zusätzliche API Suche nach Kennungen, hier können Sie schnell nach bestimmten Kennungen** suchen. Dies befindet sich unten in den **API-Einstellungen** in der **Developer-Konsole**.
 
 #### Wofür kann es verwendet werden?
-- Analysen einer bestimmten Nachricht verfolgen
-- Holen Sie sich hochrangige aggregierte Statistiken zur Kampagnenleistung
-- Holen Sie sich Details zu einer bestimmten Kampagne
-- Mit Currents, um Daten auf Benutzerebene für einen „größeren“ Ansatz für Kampagnen einzubringen
-- Mit API-getriggerter Lieferung, um Statistiken für Transaktionsnachrichten zu sammeln
-- So [suchen Sie mithilfe des Filters]({{site.baseurl}}/user_guide/engagement_tools/campaigns/managing_campaigns/search_campaigns/#search-syntax) auf der Seite **Kampagnen nach einer bestimmten Kampagne** `api_id:YOUR_API_ID`
+- Analyse zu einer bestimmten Nachricht nachverfolgen
+- Graba aggregate Stats on Campaign Performance auf höchster Ebene
+- Grabdetails zu einer bestimmten Kampagne
+- Mit Aktuellen, um Benutzer-Level-Daten für einen "größeren Bild"-Ansatz für Kampagnen zu bringen
+- Mit API ausgelöster Lieferung zur Erfassung von Statistiken zu Transaktionsnachrichten
+- Nach [einer bestimmten Kampagne auf der ]({{site.baseurl}}/user_guide/engagement_tools/campaigns/managing_campaigns/search_campaigns/#search-syntax)Seite "**Kampagnen**" nach dem Filter zu suchen`api_id:YOUR_API_ID`
 
 <br>
 {% endtab %}
 {% tab Segment IDs %}
 
-## Segment-API-Kennung
+## API-Kennung segmenten
 
-Eine [Segment]({{site.baseurl}}/user_guide/engagement_tools/segments/)-API-Kennung oder Segment-ID ist ein sofort einsatzbereiter Schlüssel von Braze für ein bestimmtes Segment im Dashboard. Segment-IDs sind für jedes Segment eindeutig und können verwendet werden, um Segmente über die API zu referenzieren. 
+Ein [Segment]({{site.baseurl}}/user_guide/engagement_tools/segments/) API-Identifikator oder Segment-ID ist ein out-of-box-Schlüssel von Braze für ein bestimmtes Segment in der Übersicht. Segment-IDs sind für jedes Segment eindeutig und können über die API zum Referenzsegment verwendet werden. 
 
 #### Wo finde ich sie?
-Sie können Ihre Segment-ID auf zwei Arten finden:
+Sie können Ihre Segment-ID auf eine von zwei Arten finden:
 
-1. Öffnen Sie im Dashboard **Segmente unter **Engagement** und wählen Sie ein bereits bestehendes** Segment aus. Wenn das gewünschte Segment noch nicht existiert, erstellen Sie eines und speichern Sie es. Unten auf der Seite mit den einzelnen Segmenten finden Sie Ihre Segment-API-Kennung. <br>
+1. Öffnen Sie **im Dashboard Segmente unter **Engagement** und** wählen Sie ein vor bestehendes Segment aus. Wenn das von Ihnen gewünschte Segment noch nicht vorhanden ist, erstellen Sie eine und speichern Sie ihn. Unten auf der Seite des einzelnen Segmentes können Sie Ihr Segment API-Identifikator finden. <br>
 <br>
 
-2. Braze bietet eine Suche nach **zusätzlichen API-Identifikatoren** an. Hier können Sie schnell nach bestimmten Kennungen suchen. Sie finden sie unten auf der Registerkarte **API-Einstellungen** auf der Seite **Developer Console**.
+2. Braze bietet eine **zusätzliche API Suche nach Kennungen, hier können Sie schnell nach bestimmten Kennungen** suchen. Sie finden sie unten auf der **Registerkarte API Einstellungen** in der **Developer Konsole** .
 
 #### Wofür kann es verwendet werden?
-- Details zu einem bestimmten Segment abrufen
-- Abrufen von Analysen eines bestimmten Segments
-- Abrufen, wie oft ein benutzerdefiniertes Ereignis für ein bestimmtes Segment aufgezeichnet wurde
-- Festlegen und Senden einer Kampagne an Mitglieder eines Segments innerhalb der API
+- Informationen zu einem bestimmten Segment
+- Analysen zu einem bestimmten Segment abrufen
+- Ziehen Sie, wie oft ein benutzerdefiniertes Ereignis für ein bestimmtes Segment aufgezeichnet wurde
+- Geben Sie eine Kampagne an Mitglieder eines Segments innerhalb der API
 
 {% endtab %}
 {% tab Card IDs %}
 
-## Karten-API-Kennung
+## Kartenkennung API
 
-Eine Karten-API-Kennung oder Karten-ID ist ein sofort einsatzbereiter Schlüssel von Braze für eine bestimmte Newsfeed-Karte im Dashboard. Karten-IDs sind für jede [Newsfeed]({{site.baseurl}}/user_guide/engagement_tools/news_feed/)-Karte eindeutig und können verwendet werden, um Karten über die API zu referenzieren. 
+Eine Karte API Identifier oder Kartennummer ist ein out-the-box Key von Braze für eine gegebene News Feed Card in der Übersicht. Karten-IDs sind für jede [News-Feed-Karte]({{site.baseurl}}/user_guide/engagement_tools/news_feed/) eindeutig und können über die API kartenreferenziert verwendet werden. 
 
 #### Wo finde ich sie?
-Sie können Ihre Karten-ID auf zwei Arten finden:
+Sie können Ihre Kartennummer auf eine von zwei Arten finden:
 
-1. Öffnen Sie im Dashboard **News Feed** unter **Engagement** und wählen Sie einen bereits vorhandenen News Feed aus. Wenn der gewünschte Newsfeed noch nicht existiert, erstellen Sie einen und speichern Sie ihn. Unten auf der einzelnen Newsfeed-Seite finden Sie Ihre eindeutige Karten-API-Kennung. <br>
+1. Öffnen Sie **im Dashboard "News Feed** " unter **"Engagement** " und wählen Sie eine vor bestehende News-Feed aus. Wenn der von Ihnen gewünschte News-Feed noch nicht vorhanden ist, erstellen Sie einen und speichern Sie ihn. Am unteren Ende der einzelnen News-Feedseite können Sie Ihre eindeutige Karte API Identifier finden. <br>
 <br>
 
-2. Braze bietet eine Suche nach **zusätzlichen API-Identifikatoren** an. Hier können Sie schnell nach bestimmten Kennungen suchen. Sie finden sie unten auf der Registerkarte **API-Einstellungen** auf der Seite **Developer Console**.
+2. Braze bietet eine **zusätzliche API Suche nach Kennungen, hier können Sie schnell nach bestimmten Kennungen** suchen. Sie finden sie unten auf der **Registerkarte API Einstellungen** in der **Developer Konsole** .
 
 #### Wofür kann es verwendet werden?
 - Relevante Informationen auf einer Karte abrufen
-- Verfolgen Sie Ereignisse im Zusammenhang mit Content Cards und Engagement
+- Verfolgen Sie Ereignisse im Zusammenhang mit Inhaltskarten und der Interaktion
 
 <br>
 {% endtab %}
@@ -164,14 +164,14 @@ Sie können Ihre Karten-ID auf zwei Arten finden:
 
 ## Kennung senden
 
-Eine Sendekennung oder Sende-ID ist ein Schlüssel, der entweder von Braze generiert oder von Ihnen für eine bestimmte Nachricht erstellt wird, unter der die Analyse verfolgt werden sollte. Mit der Sendekennung können Sie Analysen für eine bestimmte Instanz einer Kampagne abrufen, die über den [`sends/data_series`]({{site.baseurl}}/api/endpoints/export/campaigns/get_send_analytics/) Endpunkt gesendet wird.
+Ein "Send Identifier" oder "Senden-ID" ist ein Schlüssel, der entweder von Braze generiert oder von Ihnen erstellt wurde, um eine bestimmte Nachricht zu senden, unter der die Analysen nachverfolgt werden sollten. Mit dem send-Identifier können Sie Analysen für eine bestimmte Instanz einer Kampagne, die über den [`sends/data_series`]({{site.baseurl}}/api/endpoints/export/campaigns/get_send_analytics/) Endpunkt gesendet wird, zurückziehen.
 
 #### Wo finde ich sie?
 
-API- und API-Trigger-Kampagnen, die als Broadcast gesendet werden, generieren automatisch eine Sendekennung, wenn keine Sendekennung bereitgestellt wird. Wenn Sie Ihre eigene Sendekennung angeben möchten, müssen Sie zunächst eine über den [`sends/id/create`]({{site.baseurl}}/api/endpoints/messaging/send_messages/post_create_send_ids/) Endpunkt erstellen. Die Kennung muss alle ASCII-Zeichen und höchstens 64 Zeichen lang sein. Sie können eine Sendekennung für mehrere Sendungen derselben Kampagne wiederverwenden, wenn Sie die Analysen dieser Sendungen zusammen gruppieren möchten.
+API und API Auslösen von Kampagnen, die als Broadcast gesendet werden, generiert automatisch einen Identifikator, wenn ein Send-Identifier nicht angegeben ist. Wenn Sie Ihren eigenen Sendekennung angeben möchten, müssen Sie zuerst eine über den [`sends/id/create`]({{site.baseurl}}/api/endpoints/messaging/send_messages/post_create_send_ids/) Endpunkt erstellen. Die Kennung muss alle ASCII-Zeichen und maximal 64 Zeichen lang sein. Sie können eine Kennung über mehrere Send-Dateien im selben Feld verwenden, wenn Sie die Gruppenanalyse dieser Sendeten zusammen erstellen möchten.
 
 #### Wofür kann es verwendet werden?
-Sende und verfolge die Nachrichtenleistung programmatisch, ohne Kampagnenerstellung für jeden Sendevorgang.
+Senden und verfolgen Sie die Performance von Nachrichten systematisch ohne Erstellung von Kampagnen für jede Zahlung.
 
 <br>
 {% endtab %}
