@@ -1,22 +1,22 @@
 {
     "glossary": {
-        "title": "exemple de glossaire",
+        "title": "glossaire par exemple",
 		"GlossDiv": {
             "title": "S",
 			"GlossList": {
                 "GlossEntry": {
                     "ID": "SGML",
 					"SortAs": "SGML",
-					"GlossTerm": "Mise à jour pour la démonstration du nombre de jours2",
-					"Acronym": "commentaire git pr mis à jour",
-					"Abbrev": "ISO 8879 :1986",
-			"new" : "check PR Closed_new update",
-			"Test" : "test the update in file new session",
+					"GlossTerm": "Mis à jour pour aucune démo2 jours",
+					"Acronym": "git comment pr mis à jour",
+					"Abbrev": "ISO 8879:1986",
+			"new" : "vérifier la mise à jour du Closed_new PR",
+			"Test" : "tester la mise à jour dans la nouvelle session",
 					"GlossDef": {
-                        "para": "Un langage de méta-marquage, utilisé pour créer des langages de balisage tels que DocBook newbook TEST.",
+                        "para": "Une langue méta-markup, utilisée pour créer des langues de mark-up telles que DocBook newbook TEST.",
 						"GlossSeeAlso": ["GML", "XML"]
                     },
-					"GlossSee": "balisage"
+					"GlossSee": "Balisage"
                 }
             }
         }

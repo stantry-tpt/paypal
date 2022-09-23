@@ -11,7 +11,7 @@ pipelines:
   default:
     - parallel:
       - step:
-          name: Construire et Test1
+          name: Construire et tester1
           caches:
             - maven
           script:
@@ -20,7 +20,7 @@ pipelines:
               # Collect checkstyle results, if any, and convert to Bitbucket Code Insights, no of days.
             - pipe: atlassian/checkstyle-report:0.3.0
       - step:
-          name: choisir uniquement en raison de la détection de changement
+          name: sélectionner uniquement thei en raison de la détection des modifications
           script:
             # Run a security scan for sensitive data.
             # See more security tools at https://bitbucket.org/product/features/pipelines/integrations?&category=security
