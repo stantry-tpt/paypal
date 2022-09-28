@@ -1,0 +1,23 @@
+{
+    "glossary": {
+        "title": "demostración de glosario de ejemplo",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "contenido actualizado para la actualización para la solicitud de extracción comment_number de días",
+					"Acronym": "git comentario pr",
+					"Abbrev": "ISO 8879:1986",
+					"SortAs": "SGML",
+					"GlossDef": {
+                        "para": "Un lenguaje de meta-marcas, utilizado para crear lenguajes de marcas como DocBook newbook TEST.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "Marcado"
+                }
+            }
+        }
+    }
+}

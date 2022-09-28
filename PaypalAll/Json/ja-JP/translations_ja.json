@@ -1,0 +1,23 @@
+{
+    "glossary": {
+        "title": "デモの例",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "Sgml",
+					"SortAs": "Sgml",
+					"GlossTerm": "数日以内に引き出しリクエストの更新comment_number更新されたコンテンツ",
+					"Acronym": "gitコメント pr",
+					"Abbrev": "ISO 8879:1986",
+					"SortAs": "Sgml",
+					"GlossDef": {
+                        "para": "アカウントを作成する言語で、DocBook newbook TESTなどの言語を作成するために使用されます。",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "マークアップ"
+                }
+            }
+        }
+    }
+}
