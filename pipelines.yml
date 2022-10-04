@@ -17,7 +17,7 @@ pipelines:
           script:
             - mvn -B verify --file pom.xml
           after-script:
-              # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.
+              # Collect checkstyle results, if any, and convert to Bitbucket Code Insights changes from local.
             - pipe: atlassian/checkstyle-report:0.3.0
       - step:
           name: Security Scan
